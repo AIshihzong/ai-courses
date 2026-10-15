@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1240">
+<title>AI 課程大全海報</title>
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+  :root {
+    --bg: #111111;
+    --paper: #ffffff;
+    --ink: #111111;
+    --muted: #5a5a5a;
+    --accent: #1a4be0;
+    --accent-ink: #ffffff;
+
+    --display: "Barlow Condensed", "Noto Sans TC", sans-serif;
+    --text: "Barlow", "Noto Sans TC", sans-serif;
+
+    --page-w: 1240px;
+    --page-h: 1754px;
+    --folder-x: 80px;
+    --folder-w: 1080px;
+    --band: 64px;
+    --tab-h: 40px;
+    --tab-w: 340px;
+  }
+
+  @page { size: 210mm 297mm; margin: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: var(--bg); }
+  body {
+    width: var(--page-w);
+    height: var(--page-h);
+    overflow: hidden;
+    color: var(--paper);
+    font-family: var(--text);
+    -webkit-font-smoothing: antialiased;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  .poster { position: relative; width: 100%; height: 100%; overflow: hidden; }
+
+  /* Top row */
+  .top {
+    position: absolute; top: 40px; left: var(--folder-x); right: var(--folder-x);
+    display: flex; justify-content: center; align-items: baseline;
+    font-size: 19px; font-weight: 500; color: #d8d8d8;
+  }
+  .top .edition { position: absolute; right: 0; font-family: var(--display); font-size: 24px; letter-spacing: 0.01em; color: #d8d8d8; }
+
+  /* Headline */
+  h1 {
+    position: absolute; top: 92px; left: 0; right: 0;
+    text-align: center;
+    font-family: var(--display); font-weight: 900;
+    font-size: 176px; line-height: 0.95; letter-spacing: -0.02em;
+  }
+  h1 .latin { font-weight: 700; font-size: 1.12em; letter-spacing: -0.01em; }
+  .lede {
+    position: absolute; top: 290px; left: 50%; transform: translateX(-50%);
+    width: 880px; text-align: center;
+    font-size: 23px; line-height: 1.55; color: #e6e6e6;
+  }
+
+  /* Folder stack */
+  .stack { position: absolute; left: var(--folder-x); width: var(--folder-w); top: 440px; }
+  .folder {
+    position: absolute; left: 0; width: 100%; height: 1400px;
+    background: var(--c); color: var(--ink);
+  }
+  .folder .tab {
+    position: absolute; top: calc(var(--tab-h) * -1); left: var(--x);
+    width: var(--tab-w); height: var(--tab-h);
+    background: var(--c);
+    clip-path: polygon(14px 0, calc(100% - 14px) 0, 100% 100%, 0 100%);
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 4px 30px 0;
+  }
+  .folder .name { font-size: 20px; font-weight: 700; letter-spacing: 0.01em; white-space: nowrap; }
+  .folder .count { font-family: var(--display); font-weight: 700; font-size: 30px; line-height: 1; font-variant-numeric: tabular-nums; }
+  .folder .count small { font-family: var(--text); font-size: 15px; font-weight: 500; margin-left: 2px; }
+  .folder .pick {
+    position: absolute; top: 8px; left: calc(var(--x) + 30px); width: 330px;
+    font-size: 16px; line-height: 1.3; color: #2a2a2a; white-space: nowrap;
+  }
+  .folder .pick b { font-weight: 700; color: var(--ink); margin-right: 6px; }
+
+  /* Front, open folder */
+  .front { background: var(--paper); }
+  .front .tab { background: var(--accent); color: var(--accent-ink); }
+  .front .tab .name { font-size: 21px; }
+  .front .tab .arrow { font-family: var(--display); font-size: 28px; line-height: 1; }
+  .front-body {
+    position: absolute; top: 0; left: 0; right: 0;
+    padding: 44px 48px 0;
+    display: grid; grid-template-columns: 1fr 300px; column-gap: 56px;
+  }
+  .total { display: flex; align-items: flex-end; gap: 22px; }
+  .total .num {
+    font-family: var(--display); font-weight: 700; font-size: 236px; line-height: 0.76;
+    letter-spacing: -0.03em; color: var(--ink);
+  }
+  .total .what { padding-bottom: 4px; }
+  .total .what strong { display: block; font-size: 40px; font-weight: 900; line-height: 1.1; }
+  .total .what span { display: block; margin-top: 8px; font-size: 18px; line-height: 1.5; color: var(--muted); }
+
+  .facts { margin-top: 46px; display: flex; justify-content: space-between; gap: 24px; }
+  .fact { max-width: 210px; }
+  .fact .big { font-family: var(--display); font-weight: 700; font-size: 58px; line-height: 0.9; }
+  .fact .big small { font-family: var(--text); font-size: 22px; font-weight: 700; margin-left: 4px; }
+  .fact p { margin-top: 10px; font-size: 16px; line-height: 1.45; color: var(--muted); }
+
+  .scan { display: flex; flex-direction: column; align-items: flex-start; }
+  .scan .qr { width: 300px; height: 300px; display: block; image-rendering: pixelated; }
+  .scan .call { margin-top: 20px; font-size: 22px; font-weight: 700; line-height: 1.35; color: var(--ink); }
+  .scan .url { margin-top: 8px; font-family: var(--display); font-weight: 700; font-size: 25px; letter-spacing: 0.005em; color: var(--accent); }
+
+  .foot {
+    position: absolute; left: 48px; right: 48px; top: 486px;
+    display: flex; justify-content: space-between;
+    font-size: 15px; color: var(--muted);
+  }
+</style>
+</head>
+<body>
+<main class="poster">
+  <div class="top">
+    <span>全網 AI 課程中文整理與分析</span>
+    <span class="edition">2026.10</span>
+  </div>
+
+  <h1><span class="latin">AI</span> 課程大全</h1>
+  <p class="lede">從全球平台、頂尖大學與 AI 公司學院精選 101 門課程與 11 項認證，<br>全部以繁體中文介紹、點評，並附 7 條學習路線。</p>
+
+  <div class="stack" aria-label="12 個課程分類">
+    <section class="folder" style="--c:#9a9a9a; --x:0px;   top:0">
+      <div class="tab"><span class="name">AI 通識與入門</span><span class="count">8<small>門</small></span></div>
+      <p class="pick"><b>首推</b>Elements of AI</p>
+    </section>
+    <section class="folder" style="--c:#c2c2c2; --x:370px; top:64px">
+      <div class="tab"><span class="name">機器學習基礎與數學</span><span class="count">11<small>門</small></span></div>
+      <p class="pick"><b>首推</b>吳恩達 ML 專項、Google MLCC</p>
+    </section>
+    <section class="folder" style="--c:#a3a3a3; --x:740px; top:128px">
+      <div class="tab"><span class="name">深度學習</span><span class="count">9<small>門</small></span></div>
+      <p class="pick"><b>首推</b>fast.ai、Karpathy Zero to Hero</p>
+    </section>
+    <section class="folder" style="--c:#cbcbcb; --x:0px;   top:192px">
+      <div class="tab"><span class="name">NLP 與大型語言模型</span><span class="count">10<small>門</small></span></div>
+      <p class="pick"><b>首推</b>Hugging Face LLM Course、CS336</p>
+    </section>
+    <section class="folder" style="--c:#acacac; --x:370px; top:256px">
+      <div class="tab"><span class="name">生成式 AI 應用與提示</span><span class="count">9<small>門</small></span></div>
+      <p class="pick"><b>首推</b>微軟 Generative AI for Beginners</p>
+    </section>
+    <section class="folder" style="--c:#d4d4d4; --x:740px; top:320px">
+      <div class="tab"><span class="name">AI 代理與 MCP</span><span class="count">12<small>門</small></span></div>
+      <p class="pick"><b>首推</b>吳恩達 Agentic AI、HF Agents</p>
+    </section>
+    <section class="folder" style="--c:#b5b5b5; --x:0px;   top:384px">
+      <div class="tab"><span class="name">視覺、多模態與語音</span><span class="count">9<small>門</small></span></div>
+      <p class="pick"><b>首推</b>CS231n、HF Diffusion Course</p>
+    </section>
+    <section class="folder" style="--c:#dddddd; --x:370px; top:448px">
+      <div class="tab"><span class="name">強化學習與機器人</span><span class="count">8<small>門</small></span></div>
+      <p class="pick"><b>首推</b>Hugging Face Deep RL Course</p>
+    </section>
+    <section class="folder" style="--c:#bebebe; --x:740px; top:512px">
+      <div class="tab"><span class="name">MLOps 與 LLMOps</span><span class="count">9<small>門</small></span></div>
+      <p class="pick"><b>首推</b>Made With ML、LLM Zoomcamp</p>
+    </section>
+    <section class="folder" style="--c:#e6e6e6; --x:0px;   top:576px">
+      <div class="tab"><span class="name">AI 安全、倫理與治理</span><span class="count">6<small>門</small></span></div>
+      <p class="pick"><b>首推</b>BlueDot Impact</p>
+    </section>
+    <section class="folder" style="--c:#c7c7c7; --x:370px; top:640px">
+      <div class="tab"><span class="name">中文原生課程與資源</span><span class="count">10<small>門</small></span></div>
+      <p class="pick"><b>首推</b>李宏毅生成式 AI 系列</p>
+    </section>
+    <section class="folder" style="--c:#efefef; --x:740px; top:704px">
+      <div class="tab"><span class="name">AI 證照與認證</span><span class="count">11<small>項</small></span></div>
+      <p class="pick"><b>涵蓋</b>AWS、Azure、Google、NVIDIA</p>
+    </section>
+
+    <section class="folder front" style="--x:0px; top:768px">
+      <div class="tab"><span class="name">掃碼開啟完整目錄</span><span class="arrow">→</span></div>
+      <div class="front-body">
+        <div>
+          <div class="total">
+            <span class="num">101</span>
+            <div class="what">
+              <strong>門 AI 課程</strong>
+              <span>另收 11 項認證。每門課附中英課名、<br>程度、費用與點評。</span>
+            </div>
+          </div>
+          <div class="facts">
+            <div class="fact"><div class="big">7<small>條</small></div><p>學習路線，<br>從職場應用到 LLM 研究</p></div>
+            <div class="fact"><div class="big">9<small>大</small></div><p>2026 年趨勢，<br>附選課決策框架</p></div>
+            <div class="fact"><div class="big">≈100</div><p>中英術語對照，<br>含兩岸譯名</p></div>
+          </div>
+        </div>
+        <div class="scan">
+          <img class="qr" src="qr.svg" width="300" height="300" alt="網站 QR Code：https://ai-ux7dcn.apps.zaowuyun.com/">
+          <p class="call">掃描 QR Code<br>開啟 AI 課程大全</p>
+          <p class="url">ai-ux7dcn.apps.zaowuyun.com</p>
+        </div>
+      </div>
+      <div class="foot">
+        <span>資料整理日期：2026 年 10 月 13 日</span>
+        <span>課程價格與內容常有變動，報名前請以官方頁面為準</span>
+      </div>
+    </section>
+  </div>
+</main>
+</body>
+</html>
