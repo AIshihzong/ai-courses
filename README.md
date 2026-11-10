@@ -1,6 +1,20 @@
 # AI 課程大全：全網 AI 課程中文整理與分析
 
-> 從全球各大平台、頂尖大學、AI 公司官方學院、開源社群與中文世界蒐集 AI 課程與學習資源，全部以**繁體中文**翻譯、介紹與點評，並附趨勢分析、平台總覽與學習路線圖。
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/AIshihzong/ai-courses)](https://github.com/AIshihzong/ai-courses/commits)
+
+> 一份**有點評、有路線、有查核**的 AI 學習地圖：從全球各大平台、頂尖大學、AI 公司官方學院、開源社群與中文世界蒐集約 550 項 AI 課程與學習資源，全部以**繁體中文**翻譯、介紹與點評。
+
+**和其他課程清單有什麼不同？**
+
+- **不只是連結**：每門精選課程都有中文簡介、學習重點與優缺點點評，並告訴你該先上哪一門
+- **依身分找起點**：上班族、主管、教師、工程師、研究者各有對應的入口與 7 條學習路線
+- **資訊夠新**：更新至 2026 年 11 月，涵蓋 AI 代理、MCP、上下文工程、各家認證改版
+- **可信度透明**：111 個 GitHub 連結逐一驗證；無法查證的價格與日期一律標註「以官方為準」
+
+**English** — A curated map of ~550 AI learning resources (courses, open textbooks, university lectures, channels) plus 30+ certifications, written in Traditional Chinese with a short review of each featured course. It covers 22 categories from AI literacy to LLM training, agents, MLOps and AI safety, and includes learning paths, a platform directory and a 2026 trend analysis. Course titles keep their English names, so the tables are usable even if you do not read Chinese.
+
+**简体中文** — 一份带点评的 AI 学习地图：收录约 550 项 AI 课程与学习资源、30 多项认证，分为 22 个类别，并附 7 条学习路线、平台总览与 2026 年趋势分析。正文为繁体中文，课程名称保留英文原名，简体读者可直接阅读。
 
 - **收錄規模**：22 個分類、850 多筆條目；扣除跨分類重複後約 **550 項不重複資源**（課程、開源教材、免費教科書、頻道與社群），另含 **30 多項 AI 認證**
 - **資料整理日期**：2026 年 11 月 10 日（第二版；初版為 2026 年 10 月 13 日，見[更新紀錄](#更新紀錄)）
@@ -127,6 +141,7 @@
 ai-courses/
 ├── README.md                          # 總覽（本頁）
 ├── CONTRIBUTING.md                    # 貢獻指南與課程條目範本
+├── LICENSE                            # CC BY 4.0 授權條款
 ├── courses/                           # 22 個分類
 │   ├── 01-ai-literacy.md              # AI 通識與入門
 │   ├── 02-ml-foundations.md           # 機器學習基礎與數學
@@ -163,6 +178,7 @@ ai-courses/
 
 | 日期 | 版本 | 內容 |
 |---|---|---|
+| 2026-11-10 | 第二版修訂 | 加入 CC BY 4.0 授權；README 開頭新增特色說明與英文、簡體中文摘要 |
 | 2026-11-10 | 第二版 | 由 12 類擴充為 22 類，條目由約 110 筆增至 850 多筆；新增大學公開課總覽、垂直領域、商業領導者、教育與 K-12、無程式碼與創意 AI、先修基礎、免費教科書、頻道與社群、學位與訓練營、各國計畫，以及學習平台總覽；原 12 類各自新增延伸清單並更新至 2026 年 11 月的資訊；全數 GitHub 連結完成驗證 |
 | 2026-10-13 | 初版 | 12 個分類、約 100 門課程與 11 項認證，分析報告、7 條學習路線、術語表 |
 
@@ -175,6 +191,16 @@ ai-courses/
 - GitHub 倉庫連結已全數驗證；其他網站連結以官方首頁或課程主頁為主，但未能逐一開啟查核，若遇失效歡迎回報。
 - 本倉庫與文中提及的任何機構、平台或課程均無合作或贊助關係；點評僅代表整理者觀點。
 - 課程名稱、商標與內容之權利屬於各原提供者。
+
+---
+
+## 授權
+
+本倉庫的原創內容（資料整理、中文翻譯、介紹與點評、分析報告與學習路線）以 [創用 CC 姓名標示 4.0 國際（CC BY 4.0）](LICENSE) 授權。
+
+- **你可以**：自由分享、轉載、改寫，包含商業用途
+- **條件是**：標示出處（例如「AI 課程大全，AIshihzong/ai-courses」）、附上本倉庫連結與授權條款連結，並說明是否有修改
+- **不在授權範圍內**：文中提及的課程名稱、商標、課程內容與第三方網站資料，權利屬於各原提供者
 
 ---
 
