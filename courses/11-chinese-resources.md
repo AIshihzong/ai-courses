@@ -177,3 +177,114 @@
 ```
 
 > **提醒**：中文資源能大幅降低入門門檻，但 AI 領域最新的論文、文件與工具幾乎都以英文發布。建議在中文課程打好基礎後，逐步練習閱讀英文原文教材與官方文件；本倉庫其他分類中的英文課程皆附有中文介紹，可作為過渡。
+
+---
+
+## 延伸清單（2026 年 11 月增補）
+
+以下把中文資源擴充為五個部分：台灣的大學課程、中國大陸的大學課程與開源教材、Datawhale 完整教程地圖、其他熱門開源專案，以及兩岸的學習平台與培訓機構。
+
+### 一、台灣的大學公開課（續）
+
+| 課程 | 授課者／學校 | 程度 | 連結 | 說明 |
+|---|---|---|---|---|
+| 生成式人工智慧與機器學習導論（2025 秋） | 李宏毅（台大） | ⭐～⭐⭐ | <https://speech.ee.ntu.edu.tw/~hylee/GenAI-ML/2025-fall.php> | 2025 年 12 月更新完畢；另有 AI Agent 相關講次，B 站有大量轉載與整理版 |
+| 深度學習之應用（Applied Deep Learning） | 陳縕儂（台大資工） | ⭐⭐～⭐⭐⭐ | <https://www.csie.ntu.edu.tw/~miulab/> | 以 NLP 與 LLM 應用為主，作業紮實；錄影在 YouTube「Vivian NTU MiuLab」頻道 |
+| 深度學習（CS565600） | 吳尚鴻（清華大學，新竹） | ⭐⭐⭐ | <https://nthu-datalab.github.io/ml/> | 英文講義＋中文授課錄影，理論與競賽式作業並重 |
+| 深度生成模型（2025） | 陽明交通大學 | ⭐⭐⭐ | [YouTube](https://www.youtube.com/playlist?list=PLl6jkZVaP8zrR-UikQB-AXJyqpvGxMLGT) | 研究所課程公開錄影 |
+| 人工智慧與深度學習 MOOC | 蔡炎龍（政治大學） | ⭐～⭐⭐ | <https://github.com/yenlung/Deep-Learning-MOOC> | 政大磨課師；神經網路、CNN、RNN，Notebook 已更新為 TensorFlow 2 |
+| TAICA 聯盟課程 | 教育部 × 63 所大專院校 | ⭐～⭐⭐⭐ | <https://taicatw.net/> | 跨校選修的 AI 學程；115 學年上學期含成大「人工智慧導論」、清大「自然語言處理」、台大「機器學習」（林軒田）與「金融科技導論」等，部分課程以鏡像方式線上授課 |
+| 台大／清大／陽明交大開放式課程 | 各校 | — | <https://ocw.aca.ntu.edu.tw/>・<https://ocw.nthu.edu.tw/>・<https://ocw.nycu.edu.tw/> | 線性代數、機率、演算法等先修課的中文錄影 |
+
+### 二、中國大陸的大學課程與開源教材
+
+| 課程／教材 | 學校／作者 | 程度 | 連結 | 說明 |
+|---|---|---|---|---|
+| 大模型公開課（大模型交叉研討課） | 清華大學 劉知遠團隊 × OpenBMB | ⭐⭐ | [B 站](https://www.bilibili.com/video/BV1UG411p7zv/) | 9 大章、137 小節，從基礎到實戰 |
+| 大模型基礎 | 浙江大學 LLM 團隊 | ⭐⭐ | <https://github.com/ZJU-LLMs/Foundations-of-LLMs> | 免費教材 PDF，六章並持續月更；每章附相關論文清單 |
+| 動手學大模型 | 上海交通大學（張倬勝） | ⭐⭐ | <https://github.com/Lordog/dive-into-llms> | 由校內課程講義擴展的實作教程：微調與部署、提示學習、知識編輯、數學推理、GUI Agent、對齊與安全等；另有與華為昇騰合作的「大模型開發全流程」公益教程 |
+| 大語言模型 | 中國人民大學（趙鑫等） | ⭐⭐ | <https://llmbook-zh.github.io/> | 由知名英文綜述擴寫的中文教材，免費下載 |
+| 大規模語言模型：從理論到實踐 | 復旦大學（張奇等） | ⭐⭐ | <https://intro-llm.github.io/> | 訓練、微調、強化學習到部署 |
+| 神經網路與深度學習（蒲公英書） | 復旦大學（邱錫鵬） | ⭐⭐ | <https://nndl.ai/> | 中文深度學習教科書；系列含通識版、案例與實踐、大模型與智能體 |
+| 強化學習的數學原理 | 西湖大學（趙世鈺） | ⭐⭐ | <https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning> | 書與影片皆免費，中英文皆有 |
+| 動手學強化學習 | 上海交通大學（張偉楠等） | ⭐⭐ | <https://hrl.boyuai.com/> | Notebook 式教材 |
+| 智能計算系統 | 中國科學院大學（陳雲霽團隊） | ⭐⭐⭐ | <https://novel.ict.ac.cn/aics/> | AI 晶片、程式語言到框架的全棧課，B 站有錄影 |
+| 機器學習系統：設計和實現 | OpenMLSys 社群 | ⭐⭐⭐ | <https://openmlsys.github.io/> | 開源教材 |
+| 人工智能：模型與算法 | 浙江大學（吳飛） | ⭐⭐ | <https://www.icourse163.org/> （搜尋課名） | 中國大學 MOOC 上的國家級精品課 |
+| 人工智能綜合能力提升培訓 2026 系列 | 國家高等教育智慧教育平台 | ⭐ | <https://www.chinaooc.com.cn/ai2026> | 人工智能入門、人工智能導論、面向人文社科的導論、創新項目設計、技術與應用等通識慕課 |
+| 微軟 AI 教育與學習共建社區（AI-EDU） | 微軟亞洲研究院 | ⭐～⭐⭐ | <https://github.com/microsoft/ai-edu> | 神經網路基本原理簡明教程與實踐案例 |
+| 推薦系統／搜尋引擎／深度強化學習公開課 | 王樹森 | ⭐⭐ | <https://github.com/wangshusen/RecommenderSystem> | 工業界視角的系列中文課程 |
+
+### 三、Datawhale 教程地圖
+
+Datawhale 的開源教程數量眾多，依學習階段整理如下（皆為簡體中文、免費）。官方另有[人工智能培養方案](https://www.datawhale.cn/learn/summary/40)可作為總路線。
+
+| 階段 | 教程 | 連結 | 內容 |
+|---|---|---|---|
+| 基礎 | Joyful Pandas | <https://github.com/datawhalechina/joyful-pandas> | Pandas 資料處理 |
+| 基礎 | 南瓜書 | <https://github.com/datawhalechina/pumpkin-book> | 西瓜書公式推導 |
+| 基礎 | 深度學習詳解（LeeDL Tutorial，蘋果書） | <https://github.com/datawhalechina/leedl-tutorial> | 李宏毅課程文字版 |
+| 基礎 | 深入淺出 PyTorch | <https://github.com/datawhalechina/thorough-pytorch> | PyTorch 由淺入深 |
+| 基礎 | Easy RL（蘑菇書） | <https://github.com/datawhalechina/easy-rl> | 強化學習 |
+| LLM 原理 | Base LLM：從 NLP 到 LLM 的算法全棧教程 | <https://github.com/datawhalechina/base-llm> | 從傳統 NLP 一路到大語言模型 |
+| LLM 原理 | Happy-LLM | <https://github.com/datawhalechina/happy-llm> | 從零實作語言模型 |
+| LLM 原理 | 動手學 LLM（LLMs From Scratch 中文版） | <https://github.com/datawhalechina/llms-from-scratch-cn> | 從零構建 GLM4、Llama3、RWKV6 |
+| LLM 原理 | Tiny-Universe：大模型白盒子構建指南 | <https://github.com/datawhalechina/tiny-universe> | 手寫擴散模型、LLM、RAG、Agent 與評測 |
+| LLM 原理 | 大模型基礎（So-Large-LM） | <https://github.com/datawhalechina/so-large-lm> | 理論到實戰的知識體系 |
+| 應用開發 | LLM Universe：動手學大模型應用開發 | <https://github.com/datawhalechina/llm-universe> | 面向小白：呼叫 API、搭建知識庫、建立 RAG 應用並部署 |
+| 應用開發 | All-in-RAG | <https://github.com/datawhalechina/all-in-rag> | RAG 技術全棧指南，含多模態檢索與工程化 |
+| 應用開發 | llm-cookbook | <https://github.com/datawhalechina/llm-cookbook> | 吳恩達大模型系列短課中文版 |
+| 應用開發 | Self-LLM：開源大模型食用指南 | <https://github.com/datawhalechina/self-llm> | 開源模型的部署與微調 |
+| 應用開發 | Unlock-HF | <https://github.com/datawhalechina/unlock-hf> | Hugging Face 生態系教程 |
+| 應用開發 | Handy Ollama | <https://github.com/datawhalechina/handy-ollama> | 本機部署大模型；2025 年 11 月被 Ollama 官方倉庫收錄為教學 |
+| 代理 | Hello-Agents | <https://github.com/datawhalechina/hello-agents> | 從零開始構建智能體 |
+| 代理 | wow-agent | <https://github.com/datawhalechina/wow-agent> | 適合企業內部署的簡易 Agent 教程 |
+| 代理 | Agentic AI 中文版 | <https://github.com/datawhalechina/agentic-ai> | 吳恩達 Agentic AI 課程的翻譯與解讀 |
+| 代理 | Agent Skills 中文版 | <https://github.com/datawhalechina/agent-skills-with-anthropic> | DeepLearning.AI × Anthropic 短課的中文整理 |
+| 無程式碼 | Handy n8n | <https://github.com/datawhalechina/handy-n8n> | n8n 自動化工作流程 |
+| Vibe Coding | Easy-Vibe | <https://github.com/datawhalechina/easy-vibe> | Vibe Coding 產品實戰，支援 10 種語言 |
+| Vibe Coding | Vibe Vibe | <https://github.com/datawhalechina/vibe-vibe> | 零基礎 AI 編程指南 |
+| 專題 | FunRec（小麥書） | <https://github.com/datawhalechina/fun-rec> | 推薦系統 |
+| 專題 | Every Embodied | <https://github.com/datawhalechina/every-embodied> | 具身智慧 |
+
+### 四、其他熱門中文開源專案
+
+| 專案 | 作者 | 連結 | 說明 |
+|---|---|---|---|
+| MiniMind | jingyaogong | <https://github.com/jingyaogong/minimind> | 從零訓練 64M 小語言模型的完整鏈路，約 2 小時、成本極低；另有視覺與多模態版本 |
+| llm-action | liguodongiot | <https://github.com/liguodongiot/llm-action> | 大模型技術原理與實戰經驗分享（訓練、微調、推論、部署） |
+| awesome-LLM-resources | WangRongsheng | <https://github.com/WangRongsheng/awesome-LLM-resources> | 中文 LLM 資源總表 |
+| 吳恩達課程中文筆記 | 黃海廣 | <https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes> | 經典機器學習課的中文筆記；另有[深度學習專項筆記](https://github.com/fengdu78/deeplearning_ai_books) |
+| 20 天吃掉那隻 PyTorch | lyhue1991 | <https://github.com/lyhue1991/eat_pytorch_in_20_days> | 以 20 天為單位的 PyTorch 自學計畫 |
+| PyTorch 中文手冊 | zergtant | <https://github.com/zergtant/pytorch-handbook> | PyTorch 入門中文教程 |
+| 《深度學習》花書中文翻譯 | exacity 社群 | <https://github.com/exacity/deeplearningbook-chinese> | Goodfellow 等《Deep Learning》的社群翻譯 |
+| 鳶尾花書 | 薑偉生 | <https://github.com/Visualize-ML> | 數學與機器學習視覺化系列叢書 |
+| 論文精讀 | 李沐 | <https://github.com/mli/paper-reading> | 深度學習里程碑論文的逐段講解 |
+
+### 五、學習平台與培訓機構
+
+**台灣**
+
+| 平台 | 性質 | 連結 | 說明 |
+|---|---|---|---|
+| edu 磨課師＋ | 教育部免費平台 | <https://moocs.moe.edu.tw/> | 整合各大學磨課師；2026 年 9 月推薦 18 門 AI 課程 |
+| ewant 育網／OpenEdu／TaiwanLIFE | 大學聯盟磨課師平台 | <https://www.ewant.org/>・<https://www.openedu.tw/>・<https://taiwanlife.org/> | 多數免費，部分提供修課證明 |
+| 工研院產業學習網 | 法人培訓（付費，部分補助） | <https://college.itri.org.tw/> | 含生成式 AI 工程師培訓班 |
+| 資策會數位教育研究所 | 法人培訓（付費，部分補助） | <https://www.iiiedu.org.tw/> | 結合考照的 AI 應用課程 |
+| 台灣大哥大免費 AI 課程 | 企業公益 | <https://www.taiwanmobile.com/content/event/consumer-ai/index.html> | 線上與門市實體場次 |
+| Hahow 好學校／TibaMe／六角學院／ALPHA Camp | 商業線上課程 | <https://hahow.in/>・<https://www.tibame.com/>・<https://www.hexschool.com/>・<https://tw.alphacamp.co/> | 付費；中文講師、在地案例，品質依課程而異 |
+| iT 邦幫忙鐵人賽 | 社群技術文章 | <https://ithelp.ithome.com.tw/> | 每年有大量繁體中文的 30 天 AI 主題系列文 |
+
+**中國大陸**
+
+| 平台 | 性質 | 連結 | 說明 |
+|---|---|---|---|
+| 中國大學 MOOC／學堂在線 | 大學慕課平台 | <https://www.icourse163.org/>・<https://www.xuetangx.com/> | 各校 AI 通識與專業課，多數免費 |
+| 國家高等教育智慧教育平台 | 教育部 | <https://higher.smartedu.cn/> | 設有「人工智能 2026」專題 |
+| 阿里雲認證與培訓中心 | 企業 | <https://edu.aliyun.com/> | 免費課程與大模型 ACA／ACP 認證（見 [12](12-certifications.md)） |
+| 魔搭 ModelScope | 模型社群 | <https://www.modelscope.cn/> | 模型、資料集與學習資源 |
+| 華為人才在線 | 企業 | <https://e.huawei.com/cn/talent/> | HCIA／HCIP-AI 認證課程 |
+| 阿里雲天池／和鯨社區 | 競賽與實作 | <https://tianchi.aliyun.com/>・<https://www.heywhale.com/> | 競賽、資料集與線上 Notebook |
+| 極客時間／深藍學院 | 商業課程 | <https://time.geekbang.org/>・<https://www.shenlanxueyuan.com/> | 付費；前者偏工程實戰營，後者偏機器人、自動駕駛與具身智慧 |
+
+> **選擇中文付費課程的提醒**：市面上「大模型速成」「AI 副業」類課程眾多且價差極大。報名前先確認：講師是否有可查證的實務或研究背景、課綱是否涵蓋評估與上線、是否能試聽、退費規則為何。多數內容其實可在上面的免費開源教程中找到。

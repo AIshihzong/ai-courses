@@ -53,7 +53,7 @@
 
 **簡介**：以託管 LLM 打造**生產等級的 RAG 系統**，並學習評估與上線監控。2026 年梯次於 6 月至夏末進行。
 
-**主題**：LLM 與 RAG 基礎、向量搜尋、代理、評估（檢索評估與 LLM-as-a-Judge）、監控與最佳實務，以期末專案收尾。
+**2026 年版模組**：代理式 RAG → 向量搜尋 → 編排（Orchestration）→ 評估 → 監控 → 最佳實務 → 端到端專案範例，最後以結業專案收尾；另有資料擷取工作坊。
 
 **點評**：是少數完整談到「RAG 系統評估與監控」的免費課程，強烈推薦給要把 LLM 應用上線的工程師。
 
@@ -137,3 +137,45 @@
 | LLM 應用上線 | LLM Zoomcamp → Full Stack Deep Learning LLM Bootcamp 講座 |
 | 系統設計／面試 | CS329S + Chip Huyen 著作 |
 | 底層效能工程 | CMU Deep Learning Systems → GPU MODE → 史丹佛 CS336 系統單元 |
+
+---
+
+## 延伸清單：更多 MLOps、評估與系統課程（2026 年 11 月增補）
+
+### 評估與可觀測性（目前最缺人才的能力）
+
+| 課程（中文／英文） | 提供者 | 程度 | 費用 | 連結 | 說明 |
+|---|---|---|---|---|---|
+| 給工程師與 PM 的 AI 評估 / AI Evals for Engineers & PMs | Hamel Husain、Shreya Shankar（Maven） | ⭐⭐ | 付費（約 4,500 美元） | <https://maven.com/parlance-labs/evals> | 錯誤分析、評審模型校準、評估流程設計；2026 年仍持續開梯次 |
+| LLM 評估指南 / LLM Evaluation Guidebook | Hugging Face | ⭐⭐ | 免費 | <https://github.com/huggingface/evaluation-guidebook> | 評估方法、設計自己的評估、常見陷阱 |
+| ML 可觀測性／LLM 評估開放課程 | Evidently AI | ⭐⭐ | 免費 | <https://www.evidentlyai.com/courses> | 資料漂移、模型監控與 LLM 評估的實作課 |
+| W&B AI 學院 | Weights & Biases | ⭐⭐ | 免費 | <https://www.wandb.courses/> | 實驗追蹤、LLM 應用評估、微調 |
+| LangSmith 入門 / Intro to LangSmith | LangChain | ⭐⭐ | 免費 | <https://github.com/langchain-ai/intro-to-langsmith> | 追蹤、資料集與評估 |
+
+### ML 與 LLM 系統
+
+| 課程（中文／英文） | 提供者 | 程度 | 連結 | 說明 |
+|---|---|---|---|---|
+| 機器學習系統 / CMU 15-442／642 | CMU（陳天奇） | ⭐⭐⭐ | <https://mlsyscourse.org/> | 自動微分、分散式訓練、編譯器作業 |
+| 大型語言模型系統 / CMU 11-868 | CMU | ⭐⭐⭐ | <https://llmsystem.github.io/llmsystem2025spring/> | GPU 加速、分散式訓練與推論 |
+| 機器學習的資料系統 / CSE234 | UC San Diego | ⭐⭐⭐ | <https://hao-ai-lab.github.io/cse234-w25/> | LLM 訓練與推論系統，影片公開 |
+| TinyML 與高效深度學習運算 / MIT 6.5940 | MIT（韓松） | ⭐⭐⭐ | <https://hanlab.mit.edu/courses/2024-fall-65940> | 量化、剪枝、蒸餾與高效推論 |
+| 機器學習系統（開源教科書） | 哈佛 CS249r | ⭐⭐～⭐⭐⭐ | <https://mlsysbook.ai/> | 從嵌入式到資料中心 |
+| 機器學習編譯 / Machine Learning Compilation | 陳天奇（MLC） | ⭐⭐⭐ | <https://mlc.ai/> | 模型編譯與部署，有中文版 |
+| 史丹佛 MLSys 研討會 / Stanford MLSys Seminars | 史丹佛 | ⭐⭐⭐ | [YouTube](https://www.youtube.com/playlist?list=PLSrTvUm384I9PV10koj_cqit9OfbJXEkq) | 業界與學界的系統講座 |
+| 機器學習工程開放書 / ML Engineering Open Book | Stas Bekman | ⭐⭐⭐ | <https://github.com/stas00/ml-engineering> | 大規模訓練的硬體、除錯與效能實戰筆記 |
+| 智能計算系統 | 中國科學院大學 | ⭐⭐⭐ | <https://novel.ict.ac.cn/aics/> | **中文**；從 AI 晶片到框架的全棧課程 |
+| 機器學習系統：設計和實現 | OpenMLSys | ⭐⭐⭐ | <https://openmlsys.github.io/> | **中文**開源教材 |
+
+### 工程實務與資料
+
+| 課程（中文／英文） | 提供者 | 程度 | 費用 | 連結 | 說明 |
+|---|---|---|---|---|---|
+| 機器學習 Zoomcamp | DataTalksClub | ⭐⭐ | 免費 | <https://github.com/DataTalksClub/machine-learning-zoomcamp> | 模型訓練到部署（Docker、Kubernetes、Serverless） |
+| 資料工程 Zoomcamp | DataTalksClub | ⭐⭐ | 免費 | <https://github.com/DataTalksClub/data-engineering-zoomcamp> | 資料管線、倉儲、批次與串流 |
+| MLOps／LLMOps 專項課程 | 杜克大學（Noah Gift），Coursera | ⭐⭐ | 部分免費 | <https://www.coursera.org/> （搜尋 "Duke MLOps"） | 雲端平台與 Rust／Python 的 MLOps 實務 |
+| 以資料為中心的 AI 導論 | MIT | ⭐⭐ | 免費 | <https://dcai.csail.mit.edu/> | 標註錯誤、資料品質 |
+| 邁向上線的代理 / Agents Towards Production | Nir Diamant | ⭐⭐～⭐⭐⭐ | 免費 | <https://github.com/NirDiamant/agents-towards-production> | 代理系統的部署、記憶、可觀測性與安全 |
+| LLM 分身課程 / LLM Twin Course | Decoding ML | ⭐⭐⭐ | 免費 | <https://github.com/decodingml/llm-twin-course> | 端到端 LLM 系統：資料管線、微調、RAG、監控 |
+
+邊緣裝置與小模型部署見 [14｜垂直領域](14-domain-applications.md#b-邊緣-ai-與高效推論)。

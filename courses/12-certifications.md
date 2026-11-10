@@ -19,8 +19,9 @@
 | 微軟 | Azure AI 應用與代理開發者－助理級 / Azure AI Apps and Agents Developer Associate（**AI-103**） | 助理級 | 取代 2026-06-30 退役的 AI-102 | 依地區而定 | Azure AI 開發者 |
 | Google Cloud | 生成式 AI 領導者 / Generative AI Leader | 基礎 | 現行 | 約 99 美元（90 分鐘） | 任何職務，無先備條件 |
 | Google Cloud | 專業機器學習工程師 / Professional Machine Learning Engineer | 專業級 | 現行 | 約 200 美元 | ML 工程師 |
-| NVIDIA | 生成式 AI 與 LLM 認證助理 / NVIDIA-Certified Associate: Generative AI LLMs（NCA-GENL） | 助理級 | 現行 | 約 135 美元（1 小時） | LLM 應用開發入門 |
+| NVIDIA | 生成式 AI 與 LLM 認證助理 / NVIDIA-Certified Associate: Generative AI LLMs（NCA-GENL） | 助理級 | 現行 | 125 美元（官網；50 題、60 分鐘） | LLM 應用開發入門 |
 | OpenAI | OpenAI 認證 / OpenAI Certifications | — | 邀請制試行（企業與教育機構） | — | 尚未對一般大眾開放 |
+| Anthropic | Claude 認證（助理、開發者、架構師共四項） | 基礎～專業 | 僅限 Claude 合作夥伴網路成員組織 | 99–175 美元 | 合作夥伴公司的員工 |
 
 ---
 
@@ -46,6 +47,9 @@
 - **AI-900 → AI-901**：AI-900 考試於 2026 年 6 月 30 日退役，Azure AI Fundamentals 認證本身並未取消；基礎級認證**永久有效**，已持有者無需任何動作。新考生改考 AI-901。
 - **AI-102 → AI-103**：AI-102（Azure AI Engineer Associate）同日退役，取而代之的是 **AI-103：Azure AI Apps and Agents Developer Associate**，內容圍繞生成式 AI、代理式應用與以 **Microsoft Foundry** 及 Azure 服務打造 RAG 解決方案。
 - 助理級認證需每年透過 Microsoft Learn 免費線上評量續期。
+- **新的商務與架構認證**：微軟另推出不需寫程式的 **AB-730（AI Business Professional）** 與 **AB-731（AI Transformation Leader）**，第三方資料列為 99 美元、45 分鐘；以及專家級的 **AB-100（Agentic AI Business Solutions Architect）**，需先具備 AI-103 等助理級認證。
+- **DP-100 → AI-300**：Azure 資料科學家認證 DP-100 也在 2026 年退役，由 AI-300 取代（依第三方整理，日期以 Microsoft Learn 為準）。
+- 2026 年微軟將 Azure AI Foundry 更名為 **Microsoft Foundry**，考綱用語隨之更新。
 
 ---
 
@@ -66,7 +70,7 @@
 
 **重點整理**：
 - **NCA-GENL**：驗證開發、整合與維護 LLM 應用的基礎能力。官方建議的備考資源包括免費自學課程（如以 RAG 強化 LLM）。課程與考試費用分開計算。
-- NVIDIA 另有多模態、AI 基礎設施等不同方向的助理級與專業級認證，可依需求選擇。
+- 專業級另有 **NCP-GENL**（Generative AI LLMs，約 200 美元、120 分鐘）與 **NCP-AAI**（Agentic AI，約 200 美元）；另有多模態（NCA-GENM）與 AI 基礎設施等方向。各地區上線時程不一，以 NVIDIA 認證頁為準。
 
 ---
 
@@ -104,7 +108,7 @@
 | DeepLearning.AI | 課程與專項證書 | 需 DeepLearning.AI Pro 會員 |
 | edX | 認證證書（Verified Certificate） | 需付費 |
 | Hugging Face | 各課程完課證書 | 免費 |
-| Anthropic Academy | 完課證書 | 免費 |
+| Claude Academy（原 Anthropic Academy） | 完課證明 | 免費 |
 | Kaggle Learn | 微課程證書 | 免費 |
 | Elements of AI | 赫爾辛基大學證書 | 免費 |
 | DataTalksClub Zoomcamp | 完成專案後的證書 | 免費 |
@@ -118,3 +122,68 @@
 3. **最有說服力的永遠是作品**：GitHub 專案、部署上線的應用、Kaggle 成績、技術部落格或開源貢獻。
 
 > **建議**：把證照當作「學習的結構與里程碑」，而不是目的。優先投資時間在能展示的實作專案上。詳見 [學習路線圖](../docs/learning-paths.md) 中各路線的里程碑專案。
+
+---
+
+## 延伸清單：更多 AI 認證（2026 年 11 月增補）
+
+> 以下價格與題數多取自 2026 年的第三方整理，不同來源常有出入，**報名前請以原廠頁面為準**。
+
+### Anthropic：Claude 認證
+
+- 2026 年 3 月隨 **Claude 合作夥伴網路（Claude Partner Network）** 推出，首項為「Claude Certified Architect – Foundations」；其後擴充為四項監考考試：
+
+| 認證 | 參考費用 | 對象 |
+|---|---|---|
+| Claude Certified Associate – Foundations | 99 美元 | 一般使用與基礎知識 |
+| Claude Certified Developer – Foundations | 125 美元 | 以 Claude 開發（含 Claude Code 與 MCP） |
+| Claude Certified Architect – Foundations | 125 美元 | 解決方案架構 |
+| Claude Certified Architect – Professional | 175 美元 | 進階架構 |
+
+- 考試透過 Pearson VUE 進行，每場 120 分鐘，及格分數 720／1000。
+- **重要限制**：目前僅開放給**已加入合作夥伴網路的組織**成員報名，個人（以私人信箱）無法註冊。一般學習者可先修 [Claude Academy](https://academy.claude.com/courses) 的免費課程並取得完課證明。
+
+### 資料與企業軟體平台
+
+| 廠商 | 認證 | 參考費用／形式 | 官方頁面 | 說明 |
+|---|---|---|---|---|
+| Databricks | Generative AI Engineer Associate | 約 200 美元；90 分鐘、45 題 | <https://www.databricks.com/learn/certification> | 在 Databricks 上建置 LLM 應用；建議 6 個月以上實務經驗 |
+| Oracle | OCI AI Foundations Associate | **免費**（60 分鐘；有來源列為 95 美元） | <https://education.oracle.com/> | 目前最容易取得的免費原廠認證之一；Oracle 表示基礎級課程與認證維持免費 |
+| Salesforce | Agentforce Specialist | 約 200 美元；60 題、105 分鐘 | <https://trailhead.salesforce.com/> | 取代已於 2026 年 2 月退役的 AI Associate |
+| GitHub | GitHub Copilot（GH-300） | 約 99 美元；約 60 題、100 分鐘 | <https://resources.github.com/learn/certifications/> | 另有測試中的 Agentic AI Developer 專業考試 |
+| Snowflake | SnowPro Specialty: Gen AI | 約 225–375 美元（來源不一） | <https://www.snowflake.com/certifications/> | 建議一年以上 Snowflake 經驗 |
+| IBM | watsonx Generative AI Engineer – Associate | 依官網 | <https://www.ibm.com/training/> | 提示調校、微調與 RAG；另有 Coursera 專業證書與免費的 SkillsBuild 徽章 |
+
+### AI 治理、風險與資安
+
+| 發證單位 | 認證 | 對象 | 官方頁面 | 說明 |
+|---|---|---|---|---|
+| IAPP | AI 治理專業人員 / Artificial Intelligence Governance Professional（AIGP） | 法遵、隱私、風險管理人員 | <https://iapp.org/certify/aigp/> | 治理領域最通用的證照；100 題選擇題、四大領域，無先備條件；知識體系於 2026 年 2 月更新至 2.1 版 |
+| ISACA | AAIA（AI 稽核）、AAISM（AI 安全管理）、AAIR（AI 風險） | 稽核與資安主管 | <https://www.isaca.org/credentialing> | 2025–2026 年推出的進階系列，需先持有 CISA、CISM 等既有證照 |
+| CompTIA | SecAI+（CY0-001） | 資安從業人員 | <https://www.comptia.org/> | 2026 年 2 月推出，廠商中立；涵蓋保護 AI 系統、在資安維運中應用 AI，以及治理與風險 |
+| PMI | PMI-CPMAI（AI 專案管理） | 專案與產品經理 | <https://www.pmi.org/> | 120 題、160 分鐘，需先修官方課程 |
+| PECB 等 | ISO/IEC 42001 主導實施人員／主導稽核員 | AI 管理系統建置與稽核人員 | <https://pecb.com/> | 個人證照；與「組織通過 ISO 42001 驗證」是兩回事 |
+| OffSec | AI 紅隊認證（OSAI） | 攻擊性資安人員 | <https://www.offsec.com/> | 2026 年推出的新認證（依第三方報導，細節以官網為準） |
+
+### 中國大陸
+
+| 認證 | 發證單位 | 說明 |
+|---|---|---|
+| 大模型工程師 ACA／大模型高級工程師 ACP | 阿里雲（<https://edu.aliyun.com/certification/llm>） | 取代已於 2025 年 11 月下線的「人工智能工程師 ACA／ACP」；ACA 面向非技術背景與初學者，ACP 面向有程式基礎的應用開發者 |
+| HCIA-AI／HCIP-AI／HCIE-AI | 華為 | 華為 AI 認證體系的初、中、高三級；2026 年考綱更新，報名前請確認最新考試代碼 |
+| 人工智能訓練師（職業技能等級，五級至一級） | 人社部門備案的評價機構 | 國家職業技能等級認定；多數地區需透過評價機構報名，梯次與費用各地不同 |
+
+### 免費就能拿到的證書（速查）
+
+| 證書 | 提供者 | 類型 |
+|---|---|---|
+| Elements of AI 證書 | 赫爾辛基大學 | 完課證書 |
+| Claude Academy 各課程證明 | Anthropic | 完課證明 |
+| OpenAI Academy 課程證明 | OpenAI | 完課證明（非正式認證） |
+| Hugging Face 課程證書（Agents、Context、smol、Deep RL、Audio 等） | Hugging Face | 完課證書 |
+| Kaggle Learn 微課程證書 | Kaggle | 完課證書 |
+| Google Skills 技能徽章 | Google | 徽章（部分實驗室需點數） |
+| IBM SkillsBuild 數位徽章 | IBM | 徽章 |
+| DataTalksClub Zoomcamp 證書 | DataTalksClub | 完成專案後頒發 |
+| OCI AI Foundations Associate | Oracle | **正式監考認證**（免費） |
+| Microsoft Learn 應用技能／完成徽章 | 微軟 | 徽章（正式認證考試需付費） |

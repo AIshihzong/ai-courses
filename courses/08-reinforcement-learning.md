@@ -106,9 +106,11 @@
 
 - **提供者**：Hugging Face
 - **程度**：⭐⭐ 中級｜**費用**：免費
-- **連結**：<https://huggingface.co/learn>（課程列表中的 Robotics Course）
+- **連結**：<https://github.com/huggingface/robotics-course>
 
-**簡介**：以 Hugging Face 的開源機器人學習函式庫 **LeRobot** 為核心，介紹機器人學習中的**模仿學習**與**強化學習**方法。
+**簡介**：以 Hugging Face 的開源機器人學習函式庫 **LeRobot** 為核心，介紹機器人學習中的**模仿學習**與**強化學習**方法。課程由 LeRobot 團隊的「機器人學習教學（Robot Learning Tutorial）」改寫而成。
+
+**進度**：依官方倉庫，課程簡介、機器人學導論與古典機器人學等單元已上線；強化學習、模仿學習與機器人基礎模型單元陸續釋出中。
 
 **點評**：「具身智慧」入門的友善選擇，可搭配低成本的開源機械手臂實作。
 
@@ -123,3 +125,25 @@
 | 想做 LLM 後訓練（RLHF／GRPO） | 上述任一基礎 → Hugging Face LLM Course 推理模型章節 → CS336 後訓練作業（見 [04｜NLP 與 LLM](04-nlp-llm.md)） |
 | 想做機器人 | Deep RL Course → CS285 → Hugging Face Robotics Course（LeRobot） |
 | 偏好中文 | 李宏毅「機器學習」課程中的強化學習單元，見 [11｜中文原生課程](11-chinese-resources.md) |
+
+---
+
+## 延伸清單：更多強化學習與機器人課程（2026 年 11 月增補）
+
+| 課程（中文／英文） | 提供者 | 程度 | 連結 | 說明 |
+|---|---|---|---|---|
+| 深度強化學習 / CS224R | 史丹佛（Chelsea Finn） | ⭐⭐⭐ | <https://cs224r.stanford.edu/> | 模仿學習、離線 RL、機器人應用；2025 春季錄影公開 |
+| 強化學習講座系列（2021） | DeepMind × UCL | ⭐⭐⭐ | [YouTube](https://www.youtube.com/playlist?list=PLqYmG7hTraZDVH599EItlEWsUOsJbAodm) | David Silver 經典課的更新版 |
+| 深度強化學習基礎 / Foundations of Deep RL | Pieter Abbeel | ⭐⭐ | [YouTube](https://www.youtube.com/playlist?list=PLwRJQ4m4UJjNymuBM9RdmB3Z9N5-0IlY0) | 6 講精華 |
+| 實用強化學習 / Practical RL | Yandex School of Data Analysis | ⭐⭐⭐ | <https://github.com/yandexdataschool/Practical_RL> | 每週講座與實作 |
+| 強化學習（2025 秋） | 多倫多大學 ECE1508 | ⭐⭐⭐ | <https://bereyhi-courses.github.io/rl-utoronto/lectures/> | 較新的完整錄影 |
+| 強化學習（2024） | 華盛頓大學 CSE 579／542 | ⭐⭐⭐ | <https://courses.cs.washington.edu/courses/cse579/24au/schedule/> | 講義公開 |
+| 強化學習的數學原理 | 趙世鈺（西湖大學） | ⭐⭐ | <https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning> | **中英文**；書＋影片，從貝爾曼方程一路推到 Actor-Critic，以清楚嚴謹著稱 |
+| 動手學強化學習 | 上海交通大學（張偉楠等） | ⭐⭐ | <https://hrl.boyuai.com/> | **中文**；每章皆為可執行 Notebook |
+| Easy RL（蘑菇書） | Datawhale | ⭐⭐ | <https://github.com/datawhalechina/easy-rl> | **中文**；整合李宏毅、周博磊、李科澆課程的教程 |
+| 深度強化學習 | 王樹森 | ⭐⭐ | <https://github.com/wangshusen/DRL> | **中文**影片＋講義 |
+| 機器人操作／欠驅動機器人學 | MIT（Russ Tedrake） | ⭐⭐⭐ | <https://manipulation.csail.mit.edu/> | 線上教科書＋影片＋Notebook |
+| 機器人自主性原理 / Principles of Robot Autonomy | 史丹佛（Marco Pavone 等） | ⭐⭐⭐ | [史丹佛新聞](https://news.stanford.edu/stories/2026/10/autonomous-robotics-education-curriculum-textbook) | 2026 年 10 月公開：教科書免費線上閱讀，並附影片、投影片、開源程式與作業 |
+| 進階機器人學 / CS287 | UC Berkeley（Pieter Abbeel） | ⭐⭐⭐ | <https://people.eecs.berkeley.edu/~pabbeel/cs287-fa19/> | 最佳控制、運動規劃、估測 |
+| 現代機器人學 / Modern Robotics | 西北大學，Coursera | ⭐⭐ | <https://www.coursera.org/specializations/modernrobotics> | 部分免費；運動學、動力學與控制的基礎 |
+| 人人都能學的具身智慧 / Every Embodied | Datawhale | ⭐⭐ | <https://github.com/datawhalechina/every-embodied> | **中文**；具身智慧入門 |

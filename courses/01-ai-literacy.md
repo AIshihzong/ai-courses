@@ -98,6 +98,7 @@
 ## 5. AI 流暢力：框架與基礎（AI Fluency: Framework & Foundations）
 
 - **提供者**：Anthropic（Anthropic Academy／Claude Academy）
+- **平台現況**：Anthropic Academy 於 2026 年 3 月以 13 門課上線，其後更名為 Claude Academy；至 2026 年 11 月約有 28 門課，全部免費
 - **程度**：⭐ 入門｜**費用**：免費，可取得結業證明｜**時長**：數小時
 - **連結**：<https://academy.claude.com/courses>（舊站：<https://anthropic.skilljar.com/>）
 
@@ -165,3 +166,25 @@
 | 偏好中文 | 參考 [11｜中文原生課程](11-chinese-resources.md)，如李宏毅「生成式 AI 導論」、政府免費平台 |
 
 > **提醒**：通識課的目的是建立正確心智模型。上完後最重要的一步是**實際每天使用 AI 工具**，並觀察它在哪些地方會出錯。
+
+---
+
+## 延伸清單：更多入門課程（2026 年 11 月增補）
+
+以下課程同樣適合零基礎學習者，以表格簡要列出。
+
+| 課程（中文／英文） | 提供者 | 費用 | 時長 | 連結 | 說明 |
+|---|---|---|---|---|---|
+| Google AI 專業證書 / Google AI Professional Certificate | Google，Coursera | 付費（約每月 49 美元） | 約 8–10 小時 | <https://www.coursera.org/professional-certificates/google-ai> | 2026 年 2 月推出，8 月新增 Vibe Coding 課程；Google 稱其為 Coursera 上最受歡迎的生成式 AI 證書 |
+| Google 提示必修課 / Google Prompting Essentials | Google，Coursera | 付費 | 約 6–9 小時 | <https://grow.google/prompting-essentials/> | 「五步驟提示法」；AI Essentials 的續作 |
+| Claude 101 | Anthropic（Claude Academy） | 免費 | 短課 | <https://academy.claude.com/courses> | 第一次使用 Claude 的起點 |
+| 生成式 AI 職涯必備 / Career Essentials in Generative AI | 微軟 × LinkedIn Learning | 免費學習路徑 | 約 4–5 小時 | <https://www.linkedin.com/learning/> | 完成可取得職涯證書 |
+| 人工智慧基礎 / Artificial Intelligence Fundamentals | IBM SkillsBuild | 免費（含數位徽章） | 約 10 小時 | <https://skillsbuild.org/> | 多份評比認為是最清楚的免費憑證路徑 |
+| 給 ChatGPT 的提示工程 / Prompt Engineering for ChatGPT | 范德堡大學，Coursera | 部分免費 | 約 18 小時 | <https://www.coursera.org/learn/prompt-engineering> | 不寫程式的提示模式課 |
+| 打造 AI / Building AI | 赫爾辛基大學 × MinnaLearn | 免費 | 約 50 小時 | <https://buildingai.elementsofai.com/> | Elements of AI 的進階續作，可選擇是否寫程式 |
+| 提示工程基礎 / Foundations of Prompt Engineering | AWS Skill Builder | 免費 | 約 4 小時 | <https://skillbuilder.aws/> | 廠商中立的提示觀念＋ Bedrock 範例 |
+| 職場 AI 入門 / Introduction to AI for Work | DataCamp | 免費章節＋訂閱 | 約 2 小時 | <https://www.datacamp.com/> | 互動式短課 |
+| 學習提示 / Learn Prompting | Learn Prompting | 免費（進階課付費） | 自訂 | <https://learnprompting.org/> | 最早的開源提示工程課程 |
+| 人工智慧入門等通識慕課（2026 培訓版） | 國家高等教育智慧教育平台／中國大學 MOOC | 免費 | 依課程 | <https://www.chinaooc.com.cn/ai2026> | **簡體中文**；含面向人文社科專業的版本 |
+
+**依身分延伸閱讀**：主管與產品經理請看 [15｜商業與領導者](15-business-leadership.md)；教師與家長請看 [16｜教育工作者與 K-12](16-educators-k12.md)；想不寫程式做出工具請看 [17｜無程式碼與創意 AI](17-nocode-creative.md)；各國的全民 AI 課程請看 [22｜各國計畫](22-global-programs.md)。

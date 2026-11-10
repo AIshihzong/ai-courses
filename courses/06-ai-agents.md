@@ -68,7 +68,7 @@
 - **程度**：⭐～⭐⭐｜**費用**：免費開源｜**時長**：18 課（依 GitHub 倉庫標題）
 - **連結**：<https://github.com/microsoft/ai-agents-for-beginners>
 
-**主題涵蓋**：代理簡介與應用案例、代理框架探索、代理設計原則、工具使用、代理式 RAG、建立可信任的代理、規劃、多代理系統、後設認知（Metacognition）、上線部署、記憶、上下文工程（Context Engineering）、MCP 與代理間協定、電腦操作代理、安全性等。
+**18 課主題**（依官方課表）：代理簡介與應用案例、代理框架探索、代理設計模式、工具使用、代理式 RAG、建立可信任的代理、規劃、多代理、後設認知（Metacognition）、代理上線、代理協定（MCP、A2A、NLWeb）、上下文工程（Context Engineering）、代理記憶管理、Microsoft Agent Framework、電腦操作代理（CUA）、部署可擴展的代理、建立本機 AI 代理、代理安全。
 
 **點評**：課程持續擴充（早期版本為 12 課），每課附影片與程式範例，並提供包含中文在內的多國語言翻譯。建議先完成同系列的 *Generative AI for Beginners*。
 
@@ -138,6 +138,7 @@
 | 課程 | 內容 |
 |---|---|
 | Claude Code 實戰（Claude Code in Action） | AI 程式助理的架構、上下文管理、自訂指令、在 Claude Code 中整合 MCP 伺服器、GitHub 工作流程自動化、Hooks 與 SDK |
+| Claude Code 101 | 給第一次接觸程式代理的開發者，約 1.5 小時 |
 | MCP 入門（Introduction to Model Context Protocol） | 以 Python 從零建立 MCP 伺服器與客戶端 |
 | MCP 進階主題（Model Context Protocol: Advanced Topics） | MCP 入門的進階續篇 |
 
@@ -182,7 +183,7 @@
 - **程度**：⭐⭐ 中級｜**費用**：免費（含證書，需完成專案）
 - **連結**：<https://github.com/DataTalksClub/ai-dev-tools-zoomcamp>
 
-**簡介**：專注於「用 AI 工具開發軟體」的社群課程。2026 年梯次於 8 月 31 日開課，四個更新後的模組涵蓋 AI 原生工作流程、全端應用開發、程式代理能力，以及開源資安與 DevOps 工具。
+**簡介**：專注於「用 AI 工具開發軟體」的社群課程。2026 年梯次於 8 月 31 日開課，共五個模組：AI 原生開發工作流程 → 建置並交付 AI 輔助的全端應用 → 測試、容器化與部署 → DevOps 與可觀測性 → 程式代理的積木（可重用的技能與專門化子代理）。
 
 **點評**：社群活躍、專案導向，適合想系統化掌握 AI 程式開發代理的工程師。錯過直播梯次仍可自學。
 
@@ -211,3 +212,46 @@
 | 偏好中文 | Datawhale《Hello-Agents》，見 [11｜中文原生課程](11-chinese-resources.md) |
 
 > **學習提醒**：代理系統的難點不在「串接框架」，而在**評估、除錯與可靠性**。無論選哪門課，都要養成為代理建立評估資料集、記錄執行軌跡（Trace）並做錯誤分析的習慣。
+
+---
+
+## 延伸清單：更多代理、MCP 與程式代理課程（2026 年 11 月增補）
+
+### 2026 年新課與重點補充
+
+| 課程（中文／英文） | 提供者 | 程度 | 費用 | 連結 | 說明 |
+|---|---|---|---|---|---|
+| 上下文課程 / The Context Course | Hugging Face | ⭐⭐ | 免費（含兩級證書） | <https://github.com/huggingface/context-course> | **程式代理的上下文工程**：技能（Skills）→ MCP → 外掛（Plugins）→ 子代理 → Hooks → 加分單元「從零打造迷你代理框架」。以 Claude Code、Codex、OpenCode 三種代理貫穿範例 |
+| 自我改進的 AI 代理 / CS329A: Self-Improving AI Agents | 史丹佛 | ⭐⭐⭐ | 免費 | <https://cs329a.stanford.edu/> | 2025 秋季授課、2026 年 8 月公開錄影；測試階段運算、驗證器、從回饋學習、規劃、深度研究代理與代理評估 |
+| 評估與改進代理式應用 / Evaluating and Improving Agentic Applications | DeepLearning.AI | ⭐⭐ | 影片免費 | <https://www.deeplearning.ai/courses/> | 2026 年下半年新上架 |
+| 以程式代理進行規格驅動開發 / Spec-Driven Development with Coding Agents | DeepLearning.AI | ⭐⭐ | 影片免費 | <https://www.deeplearning.ai/courses/> | 2026 年下半年新上架 |
+| 打造自適應 AI 代理／AI 程式碼審查／代理的語音介面等短課 | DeepLearning.AI 與合作夥伴 | ⭐⭐ | 影片免費 | <https://www.deeplearning.ai/courses/> | 同期新上架：Building Adaptive AI Agents、AI Code Review（與 Qodo 合作）、Voice for AI Agents and Applications、Build Interactive Agents with Generative UI |
+| 代理技能 / Agent Skills with Anthropic | DeepLearning.AI × Anthropic | ⭐⭐ | 影片免費 | <https://www.deeplearning.ai/short-courses/agent-skills-with-anthropic/> | 2026 年 2 月；Datawhale 有[中文整理](https://github.com/datawhalechina/agent-skills-with-anthropic) |
+| Claude Code：高度代理化的程式助理 / Claude Code: A Highly Agentic Coding Assistant | DeepLearning.AI × Anthropic | ⭐⭐ | 影片免費 | <https://www.deeplearning.ai/short-courses/claude-code-a-highly-agentic-coding-assistant/> | 以三個專案示範程式代理工作流程 |
+| 以 Claude 進行 AI 工程 / AI Engineering with Claude（奈米學位） | Udacity | ⭐⭐ | 付費 | <https://www.udacity.com/> | 4 門課、4 個專案 |
+
+### 開源教學與工程指南
+
+| 資源（中文／英文） | 提供者 | 程度 | 連結 | 說明 |
+|---|---|---|---|---|
+| 12 要素代理 / 12-Factor Agents | HumanLayer | ⭐⭐ | <https://github.com/humanlayer/12-factor-agents> | 打造可靠 LLM 應用的 12 條工程原則：掌握自己的提示與上下文視窗、工具即結構化輸出、小而專注的代理、無狀態化等 |
+| GenAI 代理教學集 / GenAI Agents | Nir Diamant | ⭐⭐ | <https://github.com/NirDiamant/GenAI_Agents> | 從簡單到進階的大量代理實作 Notebook |
+| 邁向上線的代理 / Agents Towards Production | Nir Diamant | ⭐⭐～⭐⭐⭐ | <https://github.com/NirDiamant/agents-towards-production> | 狀態管理、向量記憶、部署、可觀測性、安全等上線主題 |
+| 學習代理式 AI / Learn Agentic AI | Panaversity | ⭐⭐ | <https://github.com/panaversity/learn-agentic-ai> | 巴基斯坦大型培訓計畫的公開課綱，偏雲原生架構 |
+| LangChain Academy：LangGraph 入門 | LangChain | ⭐⭐ | <https://github.com/langchain-ai/langchain-academy> | 模組 1–5 逐步建構 LangGraph 代理，模組 6 談部署 |
+| Agentic AI 中文版 | Datawhale | ⭐⭐ | <https://github.com/datawhalechina/agentic-ai> | **中文**；吳恩達 Agentic AI 課程的翻譯、整理與程式解讀 |
+| Hello-Agents／wow-agent | Datawhale | ⭐⭐ | <https://github.com/datawhalechina/hello-agents> | **中文**；見 [11](11-chinese-resources.md) |
+| Anthropic 技能範例庫 / Skills | Anthropic | ⭐⭐ | <https://github.com/anthropics/skills> | 代理技能的官方範例與規格 |
+
+### 其他平台的代理課程
+
+| 課程 | 提供者 | 費用 | 連結 | 說明 |
+|---|---|---|---|---|
+| 給領導者的代理式 AI／AI Agents 專項課程 | 范德堡大學，Coursera | 部分免費 | <https://www.coursera.org/> | 不寫程式或少量程式 |
+| AI Engineer Agentic Track 等 | Udemy（Ed Donner） | 付費（常態折扣） | <https://www.udemy.com/> | 多份評比中最常出現的 Udemy 代理課，含 MCP 與多個專案 |
+| Copilot Studio／Azure AI Foundry 代理學習路徑 | Microsoft Learn | 免費 | <https://learn.microsoft.com/training/> | 對應 AI-103 認證（見 [12](12-certifications.md)） |
+| AI Evals for Engineers & PMs | Hamel Husain、Shreya Shankar（Maven） | 付費（約 4,500 美元） | <https://maven.com/parlance-labs/evals> | 代理與 LLM 產品的評估方法，業界口碑極佳 |
+| 代理與工作流程 / Agents and Workflows | OpenAI Academy | 免費 | <https://academy.openai.com/> | 2026 年 6 月上線的三門自學課之一 |
+| 精通 GitHub Copilot | 微軟 | 免費 | <https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming> | 另有 GitHub Copilot 認證（GH-300） |
+
+不寫程式建立代理（n8n、Dify、Coze、Copilot Studio）與 Vibe Coding 請見 [17｜無程式碼與創意 AI](17-nocode-creative.md)。

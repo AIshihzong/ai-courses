@@ -61,7 +61,7 @@
 | MCP 入門／進階（Introduction to MCP / MCP: Advanced Topics） | 見 [06｜AI 代理](06-ai-agents.md) |
 | AI 流暢力（AI Fluency） | 見 [01｜AI 通識](01-ai-literacy.md) |
 
-**點評**：課程數量自 2026 年初持續增加，內容由第一方撰寫、與產品更新同步。注意課程會隨產品改版而汰換，請以官方頁面為準。
+**點評**：平台於 2026 年 3 月以 13 門課上線（當時名為 Anthropic Academy），其後更名為 Claude Academy，至 11 月約有 28 門課，較新的課程包括以 Messages API 可靠使用工具的專題課。內容由第一方撰寫、與產品更新同步；課程會隨產品改版而汰換，請以官方頁面為準。
 
 ---
 
@@ -71,9 +71,9 @@
 - **程度**：⭐～⭐⭐｜**費用**：免費開源｜**時長**：21 課
 - **連結**：<https://github.com/microsoft/generative-ai-for-beginners>
 
-**簡介**：微軟最受歡迎的 GitHub 課綱之一，每課包含影片、說明文件與 Python/TypeScript 範例程式。提供包含中文在內的多國語言翻譯。
+**簡介**：微軟最受歡迎的 GitHub 課綱之一（目前為第 3 版，含課前設定共 22 個單元），每課包含影片、說明文件與 Python/TypeScript 範例程式。提供包含中文在內的多國語言翻譯。
 
-**主題涵蓋**：生成式 AI 與 LLM 簡介、模型選擇、負責任 AI、提示工程（基礎與進階）、文字生成應用、聊天應用、搜尋應用與向量資料庫、影像生成、低程式碼應用、函式呼叫、使用者體驗設計、安全性、應用生命週期、RAG、開源模型、AI 代理、微調、小型語言模型等。
+**主題涵蓋**：生成式 AI 與 LLM 簡介、模型選擇、負責任 AI、提示工程（基礎與進階）、文字生成應用、聊天應用、搜尋應用與向量資料庫、影像生成、低程式碼應用、函式呼叫、使用者體驗設計、安全性、應用生命週期、RAG、開源模型、AI 代理、微調、小型語言模型、Mistral 模型與 Meta 模型等。
 
 **點評**：涵蓋面極廣，是 LLM 應用開發的「完整地圖」。微軟建議想學 AI 代理的開發者先完成本課程，再接續 *AI Agents for Beginners*。
 
@@ -147,3 +147,47 @@
 | 公司要導入 RAG | DeepLearning.AI RAG 課程 → LLM Zoomcamp（見 [09｜MLOps](09-mlops-llmops.md)） |
 | 綁定特定雲端 | Google → Google Skills；Azure → 微軟課綱與 Microsoft Learn；AWS → AWS Skill Builder；NVIDIA → DLI |
 | 下一步 | 進入 [06｜AI 代理與 MCP](06-ai-agents.md) |
+
+---
+
+## 延伸清單：更多應用開發課程與資源（2026 年 11 月增補）
+
+### 微軟「for Beginners」系列的其他語言版本
+
+| 課程 | 連結 | 說明 |
+|---|---|---|
+| Generative AI with JavaScript | <https://github.com/microsoft/generative-ai-with-javascript> | 給 JavaScript／TypeScript 開發者 |
+| Generative AI for Beginners .NET | <https://github.com/microsoft/Generative-AI-for-beginners-dotnet> | C#／.NET 版 |
+| Generative AI for Beginners – Java Edition | <https://github.com/microsoft/generative-ai-for-beginners-java> | Java 版 |
+| LangChain for Beginners | <https://github.com/microsoft/langchain-for-beginners> | 以 LangChain 建置應用 |
+
+### 提示工程與官方實作範例集
+
+| 資源（中文／英文） | 提供者 | 費用 | 連結 | 說明 |
+|---|---|---|---|---|
+| 提示工程指南 / Prompt Engineering Guide | DAIR.AI | 免費 | <https://www.promptingguide.ai/> | 最完整的開源提示指南，有中文版；[GitHub](https://github.com/dair-ai/Prompt-Engineering-Guide) |
+| 學習提示 / Learn Prompting | Learn Prompting | 免費（進階付費） | <https://learnprompting.org/> | 開源課程，另有紅隊與進階課 |
+| 提示工程技巧集 / Prompt Engineering Techniques | Nir Diamant | 免費 | <https://github.com/NirDiamant/Prompt_Engineering> | 從基礎到進階的 Notebook 教學 |
+| Claude Cookbooks | Anthropic | 免費 | <https://github.com/anthropics/claude-cookbooks> | 官方實作範例：工具使用、RAG、多模態、代理 |
+| OpenAI Cookbook | OpenAI | 免費 | <https://github.com/openai/openai-cookbook> | 官方範例與最佳實務 |
+| Gemini API Cookbook | Google | 免費 | <https://github.com/google-gemini/cookbook> | 官方快速入門與範例 |
+| Hugging Face 開源 AI 實戰手冊 / Open-Source AI Cookbook | Hugging Face | 免費 | <https://github.com/huggingface/cookbook> | 以開源模型實作 RAG、代理、微調 |
+
+### RAG 與 LLM 應用
+
+| 課程（中文／英文） | 提供者 | 程度 | 費用 | 連結 | 說明 |
+|---|---|---|---|---|---|
+| RAG 技術大全 / RAG Techniques | Nir Diamant | ⭐⭐ | 免費 | <https://github.com/NirDiamant/RAG_Techniques> | 數十種 RAG 技巧的可執行教學 |
+| 5 天生成式 AI 密集課 / 5-Day Gen AI Intensive | Google × Kaggle | ⭐⭐ | 免費 | <https://www.kaggle.com/learn> | 基礎模型、嵌入、代理、領域 LLM、MLOps；與代理密集課是不同課程 |
+| 生成式 AI 基礎 / Generative AI Fundamentals | Databricks Academy | ⭐ | 免費 | <https://www.databricks.com/learn> | 短課，含徽章 |
+| GenAI360：LangChain 與向量資料庫實戰等 | Activeloop × Towards AI | ⭐⭐ | 免費 | <https://learn.activeloop.ai/> | 三門課：LangChain 與向量資料庫、訓練與微調 LLM、RAG 上線 |
+| W&B AI 學院 / Weights & Biases Courses | Weights & Biases | ⭐⭐ | 免費 | <https://www.wandb.courses/> | 建置 LLM 應用、結構化輸出、評估、微調等短課 |
+| Neo4j GraphAcademy（LLM 與知識圖譜） | Neo4j | ⭐⭐ | 免費 | <https://graphacademy.neo4j.com/> | GraphRAG 與知識圖譜 |
+| Weaviate Academy／Pinecone Learn | 向量資料庫廠商 | ⭐⭐ | 免費 | <https://weaviate.io/>・<https://www.pinecone.io/learn/> | 向量搜尋與 RAG 觀念 |
+| LLM 分身課程 / LLM Twin Course | Decoding ML | ⭐⭐⭐ | 免費 | <https://github.com/decodingml/llm-twin-course> | 端到端打造可上線的 LLM 系統 |
+| IBM 生成式 AI 工程專業證書 / IBM Generative AI Engineering | IBM，Coursera | ⭐⭐ | 付費 | <https://www.coursera.org/professional-certificates/ibm-generative-ai-engineering> | LLM、RAG、LangChain 與全端 AI 應用 |
+| LLM 工程／AI 工程師課程 | Udemy（Ed Donner 等） | ⭐⭐ | 付費（常態折扣） | <https://www.udemy.com/> | 專案多、更新快；選課前請看預覽與近期評價 |
+| AI 工程師學習路徑 / AI Engineer Path | Scrimba | ⭐⭐ | 訂閱制 | <https://scrimba.com/> | 給前端／JavaScript 開發者 |
+| 開發者路線圖：AI Engineer | roadmap.sh | — | 免費 | <https://roadmap.sh/ai-engineer> | 互動式技能地圖 |
+
+中文的應用開發教程（LLM Universe、All-in-RAG、llm-cookbook 等）見 [11](11-chinese-resources.md)；不寫程式的做法見 [17](17-nocode-creative.md)。

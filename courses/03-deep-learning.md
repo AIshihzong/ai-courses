@@ -159,3 +159,29 @@
 | 時間有限、想掌握全景 | MIT 6.S191（一週看完） |
 | 偏好中文 | 李沐《動手學深度學習》+ B 站課程、李宏毅「機器學習」 |
 | 想走研究 | Understanding Deep Learning + NYU Deep Learning + 史丹佛專題課程 |
+
+---
+
+## 延伸清單：更多深度學習課程（2026 年 11 月增補）
+
+| 課程（中文／英文） | 提供者 | 程度 | 費用 | 連結 | 說明 |
+|---|---|---|---|---|---|
+| 深度學習 / MIT 6.7960 | MIT | ⭐⭐⭐ | 免費 | <https://ocw.mit.edu/courses/6-7960-deep-learning-fall-2024/> | 2024 秋季研究所課程，影片完整上架 OCW |
+| 動手做深度學習 / MIT 15.773 Hands-On Deep Learning | MIT 史隆 | ⭐⭐ | 免費 | <https://ocw.mit.edu/courses/15-773-hands-on-deep-learning-spring-2024/> | 對非資工背景友善 |
+| 深度學習導論 / CMU 11-785 | CMU | ⭐⭐⭐ | 免費 | <https://deeplearning.cs.cmu.edu/> | 作業最硬的公開深度學習課之一 |
+| 深度學習 / CS182／282A | UC Berkeley | ⭐⭐⭐ | 免費 | <https://berkeley-cs182.github.io/fa25/> | 2025 秋季版 |
+| 深度學習／深度學習進展 | UT Austin（Philipp Krähenbühl） | ⭐⭐～⭐⭐⭐ | 免費 | <https://ut.philkr.net/deeplearning/> | 線上碩士課公開版，短影片單元設計 |
+| 深度學習導論 / TUM IN2346 | 慕尼黑工業大學 | ⭐⭐ | 免費 | <https://cvg.cit.tum.de/teaching/ws2024/i2dl> | 歐洲最知名的深度學習入門課之一 |
+| 深度學習 / Deep Learning | 圖賓根大學（Andreas Geiger） | ⭐⭐⭐ | 免費 | [YouTube](https://www.youtube.com/playlist?list=PL05umP7R6ij3NTWIdtMbfvX7Z-4WEXRqD) | 完整錄影 |
+| UvA 深度學習教學 Notebook | 阿姆斯特丹大學 | ⭐⭐⭐ | 免費 | <https://uvadlc-notebooks.readthedocs.io/> | PyTorch／JAX 的高品質實作教學 |
+| 深度學習基礎 / Deep Learning Fundamentals | Lightning AI（Sebastian Raschka） | ⭐⭐ | 免費 | <https://github.com/Lightning-AI/dl-fundamentals> | 10 個單元的現代 PyTorch 入門 |
+| 學習 PyTorch / Learn PyTorch for Deep Learning: Zero to Mastery | Daniel Bourke | ⭐～⭐⭐ | 免費（線上書與 YouTube） | <https://www.learnpytorch.io/> | 最受歡迎的 PyTorch 入門教材之一 |
+| PyTorch 官方教學 | PyTorch | ⭐⭐ | 免費 | <https://pytorch.org/tutorials/> | 60 分鐘閃電入門與各主題教學 |
+| 深度學習（Python 實作）第三版 / Deep Learning with Python | François Chollet | ⭐⭐ | 免費線上閱讀 | <https://deeplearningwithpython.io/> | Keras 作者，2025 年新版 |
+| 深度學習線上梯次課 / Neuromatch Deep Learning | Neuromatch Academy | ⭐⭐ | 依國家調整學費 | <https://neuromatch.io/deep-learning-course/> | 每年 7 月，3 週全天；教材公開 |
+| 深度表徵學習原理 / Principles of Deep Representation Learning | 香港大學（馬毅） | ⭐⭐⭐ | 免費 | <https://ma-lab-berkeley.github.io/deep-representation-learning-book/community.html> | 配套開源教科書與 2025 秋季課程 |
+| 深度多任務與元學習 / CS330 | 史丹佛（Chelsea Finn） | ⭐⭐⭐ | 免費 | <https://cs330.stanford.edu/> | 元學習、少樣本學習 |
+| 深度學習詳解（蘋果書） | Datawhale（依李宏毅課程整理） | ⭐～⭐⭐ | 免費 | <https://github.com/datawhalechina/leedl-tutorial> | **中文**文字教材 |
+| 深入淺出 PyTorch | Datawhale | ⭐～⭐⭐ | 免費 | <https://github.com/datawhalechina/thorough-pytorch> | **中文**；含 B 站配套影片 |
+
+更多見 [13｜大學公開課總覽](13-university-courses.md)、[19｜免費教科書](19-books.md)；生成模型（擴散、流匹配）見 [07](07-vision-multimodal.md)。

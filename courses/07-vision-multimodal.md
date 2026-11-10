@@ -136,3 +136,26 @@
 | 影像生成研究 | MIT 6.S184 → 史丹佛 CME296 |
 | 多模態應用 | Hugging Face CV Course（多模態章節）→ 各模型廠商的多模態 API 文件 |
 | 語音 AI | Hugging Face Audio Course |
+
+---
+
+## 延伸清單：更多視覺、生成模型與多模態課程（2026 年 11 月增補）
+
+| 課程（中文／英文） | 提供者 | 程度 | 連結 | 說明 |
+|---|---|---|---|---|
+| 深度生成模型 / MIT 6.S978 | MIT（何愷明） | ⭐⭐⭐ | <https://mit-6s978.github.io/> | 生成模型基礎理論與前沿論文，作業附完整骨架程式 |
+| 深度生成模型 / CS236 | 史丹佛（Stefano Ermon） | ⭐⭐⭐ | <https://deepgenerativemodels.github.io/> | 自迴歸、VAE、Flow、GAN、能量模型到分數模型 |
+| 深度非監督式學習 / CS294-158 | UC Berkeley（Pieter Abbeel） | ⭐⭐⭐ | <https://sites.google.com/view/berkeley-cs294-158-sp24/home> | 內容最全面，含影片與投影片 |
+| 擴散模型實務導論 / MIT 6.S183 | MIT | ⭐⭐ | <https://www.practical-diffusion.org/> | 短期實作課 |
+| 擴散與流模型 / CS492(C) | KAIST | ⭐⭐⭐ | <https://diffusion.kaist.ac.kr/> | 2025 秋季，含錄影 |
+| 深度生成模型（2025） | 陽明交通大學 | ⭐⭐⭐ | [YouTube](https://www.youtube.com/playlist?list=PLl6jkZVaP8zrR-UikQB-AXJyqpvGxMLGT) | **中文**授課 |
+| 多模態機器學習 / CMU 11-777 | CMU | ⭐⭐⭐ | <https://cmu-mmml.github.io/> | 多模態表徵、對齊與融合 |
+| 進階電腦視覺 / CAP6412（2024 春） | 中佛羅里達大學 | ⭐⭐⭐ | <https://www.crcv.ucf.edu/courses/cap6412-spring-2024/schedule/> | 以視覺語言模型為主題 |
+| 自動駕駛 / Self-Driving Cars | 圖賓根大學（Andreas Geiger） | ⭐⭐⭐ | [YouTube](https://www.youtube.com/playlist?list=PL05umP7R6ij321zzKXK6XCQXAaaYjQbzr) | 感知、規劃與端到端駕駛 |
+| 3D 的機器學習 / ML for 3D Course | Hugging Face | ⭐⭐ | <https://huggingface.co/learn/ml-for-3d-course> | 生成式 3D 與高斯潑濺 |
+| 3D 資料的機器學習 | KAIST | ⭐⭐⭐ | <https://3dml.kaist.ac.kr/> | 2026 春季研究所課程 |
+| 口語語言處理 / CS224S | 史丹佛 | ⭐⭐⭐ | <https://web.stanford.edu/class/cs224s/> | 語音辨識、合成與對話 |
+| Tiny Diffusion 等「白盒」實作 | Datawhale（tiny-universe） | ⭐⭐ | <https://github.com/datawhalechina/tiny-universe> | **中文**；手寫影像生成模型與大模型全鏈路 |
+| 電腦視覺微課程 / Computer Vision | Kaggle Learn | ⭐⭐ | <https://www.kaggle.com/learn> | 卷積、資料增強的短課 |
+
+創作導向的影像／影片工具（Runway、ComfyUI、Midjourney）見 [17](17-nocode-creative.md)；醫學影像、科學應用見 [14](14-domain-applications.md)。

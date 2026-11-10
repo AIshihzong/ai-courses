@@ -99,3 +99,37 @@
 | 想從事 AI 政策工作 | BlueDot AI Governance |
 | 想從事技術性對齊研究 | BlueDot Technical AI Safety → ARENA |
 | 企業導入 AI 的治理負責人 | AI Fluency + Google 負責任 AI + 所在地區 AI 法規相關課程 |
+
+---
+
+## 延伸清單：更多 AI 安全、倫理與治理資源（2026 年 11 月增補）
+
+### 課程與教材
+
+| 課程（中文／英文） | 提供者 | 程度 | 費用 | 連結 | 說明 |
+|---|---|---|---|---|---|
+| ML 安全導論 / Intro to ML Safety | AI 安全中心（CAIS） | ⭐⭐⭐ | 免費 | <https://course.mlsafety.org/> | 穩健性、監控、對齊與系統性安全的技術課 |
+| AI 安全地圖 / AI Safety Atlas | CeSIA | ⭐⭐ | 免費 | <https://ai-safety-atlas.com/> | 線上教科書，多個入門讀書會以此為教材 |
+| AI 安全導論 / CS120 | 史丹佛（Max Lamparth） | ⭐⭐ | 講義公開 | <https://aisafety.stanford.edu/pages/courses.html> | 史丹佛 AI 安全中心的基礎課 |
+| AI 安全 / CS 2881 | 哈佛（Boaz Barak） | ⭐⭐⭐ | 講義公開 | <https://boazbk.github.io/mltheoryseminar/> | 2025 秋季研究所課程 |
+| 可信賴機器學習 / Trustworthy Machine Learning | 圖賓根大學 | ⭐⭐⭐ | 免費 | <https://scalabletrustworthyai.github.io/courses/tml_winter_2425/> | 穩健性、可解釋性、不確定性 |
+| LLM 的可解釋性 / CS 6966 | 猶他大學 | ⭐⭐⭐ | 講義公開 | <https://utah-llm-interpretability.notion.site/s26> | 2026 春季 |
+| 理解大型語言模型：基礎與安全 | UC Berkeley（Dawn Song） | ⭐⭐⭐ | 免費 | [YouTube](https://www.youtube.com/playlist?list=PLJ66BAXN6D8H_gRQJGjmbnS5qCWoxJNfe) | 2024 春季 |
+| ARENA 3.0 教材 | ARENA | ⭐⭐⭐ | 免費 | <https://github.com/callummcdougall/ARENA_3.0> | 機制可解釋性、RL、評估的完整練習題 |
+| 實用資料倫理 / Practical Data Ethics | fast.ai（Rachel Thomas） | ⭐ | 免費 | <https://ethics.fast.ai/> | 偏誤、隱私、假訊息與演算法問責 |
+| 公平性與機器學習 / Fairness and Machine Learning | Barocas、Hardt、Narayanan | ⭐⭐ | 免費 | <https://fairmlbook.org/> | 標準教科書 |
+
+### 培訓計畫
+
+| 計畫 | 連結 | 說明 |
+|---|---|---|
+| MATS | <https://www.matsprogram.org/> | 由資深研究者帶領的 AI 安全研究培訓 |
+| Anthropic Fellows Program | <https://www.anthropic.com/careers> | 2026 年有 11 月梯次 |
+| ML4Good | <https://www.ml4good.org/> | 多國舉辦的密集訓練營 |
+| AI 安全活動與培訓週報 | <https://aisafetyeventsandtraining.substack.com/> | 每週彙整全球 AI 安全課程、訓練營與申請截止日 |
+
+### 資安與治理
+
+- **AI 紅隊與 LLM 資安課程**（微軟、PortSwigger、Hack The Box、OWASP 等）：見 [14｜垂直領域](14-domain-applications.md#c-ai-資安與紅隊演練)。
+- **治理與資安認證**（IAPP AIGP、ISACA AAIA／AAISM、CompTIA SecAI+、ISO/IEC 42001）：見 [12｜認證](12-certifications.md)。
+- **法規背景**：歐盟《AI 法》第 4 條自 2025 年 2 月起要求組織確保人員具備 AI 素養；中國大陸、台灣等地也陸續推出 AI 教育與治理政策，見 [22｜各國計畫](22-global-programs.md)。

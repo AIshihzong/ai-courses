@@ -122,7 +122,7 @@
 
 **簡介**：nanochat 於 2025 年 10 月發布，是一個約 8,000 行、極簡且完整的類 ChatGPT 訓練與部署流程：分詞器訓練、預訓練、中期訓練、監督式微調、強化學習、推論與網頁聊天介面。據報導，在 8×H100 節點上約 4 小時、約 100 美元即可完成基本訓練。
 
-nanochat 被定位為 Karpathy 籌備中的課程 **LLM101n** 的結業專案；截至本文整理時，LLM101n 尚未完整推出。
+nanochat 被定位為 Karpathy 籌備中的課程 **LLM101n** 的結業專案。LLM101n 的[公開課綱](https://github.com/karpathy/LLM101n)規劃了 17 章（從 Bigram、Micrograd、注意力、Transformer、分詞、最佳化，到推論加速、SFT 與 RL 微調、部署與多模態），但倉庫註明課程尚未推出並已封存。
 
 **點評**：適合已看完 Zero to Hero、想親自跑一次完整 LLM 訓練流程的人。
 
@@ -147,6 +147,8 @@ nanochat 被定位為 Karpathy 籌備中的課程 **LLM101n** 的結業專案；
 - **連結**：<https://github.com/huggingface/smol-course>
 
 **簡介**：聚焦**模型後訓練（Post-training）**的實作課程，使用小型模型（如 30 億參數的 SmolLM3）與 TRL 函式庫，學習監督式微調（SFT）與偏好對齊（如 DPO）。
+
+**第二版單元**：指令微調 → 評估 → 偏好對齊（DPO）→ 視覺語言模型 → 強化學習 → 合成資料；課程採同儕審閱並設有排行榜。
 
 **點評**：小模型可在消費級或免費雲端 GPU 上實作，是入門微調的實惠選擇。
 
@@ -176,3 +178,40 @@ nanochat 被定位為 Karpathy 籌備中的課程 **LLM101n** 的結業專案；
 | 進入模型訓練／研究 | CS224N → CS336（含作業）→ nanochat |
 | 主管或 PM 想懂技術全景 | Generative AI with LLMs + CS25 精選講座 |
 | 偏好中文 | 李宏毅「生成式 AI 導論」系列、Datawhale《Happy-LLM》，見 [11｜中文原生課程](11-chinese-resources.md) |
+
+---
+
+## 延伸清單：更多 NLP 與 LLM 課程（2026 年 11 月增補）
+
+### 大學課程
+
+| 課程（中文／英文） | 提供者 | 程度 | 連結 | 說明 |
+|---|---|---|---|---|
+| Transformer 與大型語言模型 / CME295 | 史丹佛（Amidi 兄弟） | ⭐⭐ | [YouTube](https://www.youtube.com/playlist?list=PLoROMvodv4rObv1FMizXqumgVVdzX4_05)・[速查表](https://github.com/afshinea/stanford-cme-295-transformers-large-language-models) | 2025 秋季完整錄影；比 CS336 平易近人，適合作為銜接 |
+| 進階自然語言處理 / CMU 11-711 | CMU | ⭐⭐⭐ | <https://cmu-l3.github.io/anlp-spring2025/> | 影片、講義與作業公開；另有 [2024 秋季版](https://www.phontron.com/class/anlp-fall2024/) |
+| 大型語言模型：方法與應用 / CMU 11-667 | CMU | ⭐⭐⭐ | <https://cmu-llms.org/> | 六次作業涵蓋預訓練資料到 RAG |
+| 大型語言模型系統 / CMU 11-868 | CMU | ⭐⭐⭐ | <https://llmsystem.github.io/llmsystem2025spring/> | LLM 的訓練與推論系統 |
+| 生成式 AI / CMU 10-423／623 | CMU | ⭐⭐⭐ | <https://www.cs.cmu.edu/~mgormley/courses/10423/> | LLM 與影像生成並重 |
+| 自然語言理解 / CS224U | 史丹佛 | ⭐⭐⭐ | <https://web.stanford.edu/class/cs224u/> | 評估方法與研究專題導向 |
+| 理解大型語言模型 / COS 597G | 普林斯頓（陳丹琦） | ⭐⭐⭐ | <https://www.cs.princeton.edu/courses/archive/fall22/cos597G/> | 論文研討課的經典書單 |
+| 進階自然語言處理 / CS685 | 麻州大學（Mohit Iyyer） | ⭐⭐⭐ | <https://people.cs.umass.edu/~miyyer/cs685/> | 完整錄影 |
+| 基礎模型近期進展 / CS886 | 滑鐵盧大學 | ⭐⭐⭐ | <https://cs.uwaterloo.ca/~wenhuche/teaching/cs886/> | 涵蓋多模態與擴散模型 |
+| 理解大型語言模型：基礎與安全 / CS194／294-267 | UC Berkeley | ⭐⭐⭐ | [YouTube](https://www.youtube.com/playlist?list=PLJ66BAXN6D8H_gRQJGjmbnS5qCWoxJNfe) | 2024 春季 |
+| LLM 的可解釋性 / CS 6966 | 猶他大學 | ⭐⭐⭐ | <https://utah-llm-interpretability.notion.site/s26> | 2026 春季 |
+| 自然語言處理（線上碩士版） | UT Austin（Greg Durrett） | ⭐⭐⭐ | <https://www.cs.utexas.edu/~gdurrett/courses/online-course/materials.html> | 短影片單元 |
+
+### 企業與社群課程
+
+| 課程（中文／英文） | 提供者 | 程度 | 費用 | 連結 | 說明 |
+|---|---|---|---|---|---|
+| AI 研究基礎 / AI Research Foundations | Google DeepMind × 倫敦大學學院（Google Skills） | ⭐⭐ | 免費（實驗室有每月額度） | <https://www.skills.google/collections/deepmind> | 8 門課：打造小型語言模型 → 表徵語言資料 → 設計與訓練神經網路 → Transformer → 微調 → 對齊 → 加速 → 結業專案；[實驗程式碼開源](https://github.com/google-deepmind/ai-foundations) |
+| LLM 大學 / LLM University（LLMU） | Cohere | ⭐～⭐⭐ | 免費 | <https://cohere.com/llmu> | 嵌入、語意搜尋、RAG 的圖解課程 |
+| NLP 課程 / NLP Course | Yandex School of Data Analysis | ⭐⭐⭐ | 免費 | <https://github.com/yandexdataschool/nlp_course> | 每週講座＋研討＋作業 |
+| 為你而寫的 NLP 課程 / NLP Course For You | Lena Voita | ⭐⭐ | 免費 | <https://lena-voita.github.io/nlp_course.html> | 互動式圖解教材 |
+| nanoGPT／minBPE／build-nanogpt | Andrej Karpathy | ⭐⭐⭐ | 免費 | <https://github.com/karpathy/build-nanogpt> | 搭配影片從空白檔案重現 GPT-2 |
+| MiniMind | jingyaogong | ⭐⭐ | 免費 | <https://github.com/jingyaogong/minimind> | **中文**；約 2 小時、極低成本從零訓練一個 64M 參數的小語言模型，涵蓋預訓練、SFT、LoRA、DPO、PPO／GRPO、工具使用與蒸餾 |
+| 從零打造推理模型 / Build a Reasoning Model (From Scratch) | Sebastian Raschka | ⭐⭐～⭐⭐⭐ | 程式碼免費 | <https://github.com/rasbt/reasoning-from-scratch> | 《LLMs from Scratch》續作 |
+| LLM 評估指南 / LLM Evaluation Guidebook | Hugging Face | ⭐⭐ | 免費 | <https://github.com/huggingface/evaluation-guidebook> | 自動指標、人工評估、LLM 評審的實務 |
+| Awesome-LLM | 社群 | — | 免費 | <https://github.com/Hannibal046/Awesome-LLM> | LLM 論文、課程與工具總表 |
+
+中文 LLM 教材（《大語言模型》《大模型基礎》、Happy-LLM、清華大模型公開課等）見 [11｜中文原生課程](11-chinese-resources.md)；LLM 系統與效能見 [09](09-mlops-llmops.md)。

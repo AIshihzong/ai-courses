@@ -1,7 +1,7 @@
-# 全網 AI 課程分析報告（2026 年 10 月）
+# 全網 AI 課程分析報告（2026 年 10–11 月）
 
-> 本報告根據 2026 年 10 月 13 日進行的網路搜尋與資料整理，分析目前全球主要 AI 課程的版圖、趨勢、平台差異與選課策略。
-> 收錄的課程詳見 [`courses/`](../courses/) 目錄的 12 個分類檔案。
+> 本報告根據 2026 年 10 月 13 日與 11 月 10 日兩輪資料蒐集，分析目前全球主要 AI 課程的版圖、趨勢、平台差異與選課策略。
+> 收錄的課程詳見 [`courses/`](../courses/) 目錄的 22 個分類檔案；平台清單見[學習平台總覽](platforms.md)。
 
 [← 回到總覽](../README.md)
 
@@ -11,12 +11,47 @@
 
 1. **AI 代理（Agent）是 2025–2026 年最熱門的課程主題。** 吳恩達、Hugging Face、微軟、Google × Kaggle、柏克萊大學、Anthropic、OpenAI 都推出了 Agent 課程；Google 與 Kaggle 在 2025 年 11 月舉辦的 5 天代理密集課吸引超過 150 萬名學習者。
 2. **MCP 與「上下文工程」成為新的必修內容。** 模型上下文協定（MCP）已有 Hugging Face、微軟、Anthropic、DeepLearning.AI 等多門專門課程。
-3. **模型廠商自辦學院成為主流管道。** Anthropic Academy、OpenAI Academy、Google Skills（2025 年 10 月整合推出，近 3,000 門課程）、NVIDIA DLI、微軟 Learn 與 AWS Skill Builder 都提供大量免費課程——品質高、更新快，但難免以自家產品為中心。
+3. **模型廠商自辦學院成為主流管道。** Claude Academy（原 Anthropic Academy）、OpenAI Academy、Google Skills（2025 年 10 月整合推出，近 3,000 門課程）、NVIDIA DLI、微軟 Learn 與 AWS Skill Builder 都提供大量免費課程——品質高、更新快，但難免以自家產品為中心。
 4. **「從零打造 LLM」的課程熱潮。** 史丹佛 CS336、Karpathy 的 Zero to Hero 與 nanochat、Raschka 的《LLMs from Scratch》、Datawhale 的 Happy-LLM，都在回應「不只會呼叫 API，還要懂原理」的需求。
 5. **免費模式正在收緊。** Coursera 自 2025 年中起以「預覽」（通常僅首個模組免費）取代過去的免費旁聽；DeepLearning.AI 推出 Pro 訂閱制。相對地，GitHub 開源課綱、Hugging Face 課程與大學公開課仍完全免費。
 6. **AI 認證體系大改版。** 微軟 AI-900／AI-102 於 2026 年 6 月退役並由 AI-901／AI-103 取代；AWS 機器學習專業認證退役，新增生成式 AI 開發者專業認證。
 7. **中文資源已相當成熟。** 李宏毅的生成式 AI 系列、李沐的《動手學深度學習》，以及 Datawhale 的 Hello-Agents（GitHub 約 6.5 萬星）等，讓中文學習者可以用母語完成從入門到進階的學習。
 8. **知識幾乎都是免費的，真正稀缺的是實作與回饋。** 付費的價值主要在評分回饋、證書、學習結構與社群，而非內容本身。
+
+---
+
+## 2026 年 11 月增補：第二輪搜尋的新發現
+
+第二輪蒐集把範圍從「精選 100 門」擴大為「盡可能完整的地圖」：22 個分類、850 多筆條目（去重後約 550 項不重複資源）。以下是初版沒有、值得特別注意的發現。
+
+### 新課程與新平台動態
+
+| 發現 | 說明 | 分類 |
+|---|---|---|
+| Hugging Face **Context Course** | 專講「程式代理的上下文工程」：技能、MCP、外掛、子代理、Hooks，並從零打造迷你代理框架 | [06](../courses/06-ai-agents.md) |
+| 史丹佛 **CS329A** 自我改進的 AI 代理 | 2025 秋季授課，錄影於 2026 年 8 月公開 | [06](../courses/06-ai-agents.md)、[13](../courses/13-university-courses.md) |
+| 史丹佛 **CME295** Transformer 與 LLM | 2025 秋季完整錄影，是 CS336 之前的理想銜接課 | [04](../courses/04-nlp-llm.md) |
+| Google DeepMind × UCL **AI 研究基礎** | 8 門課，從打造小型語言模型到對齊與加速，免費上架 Google Skills | [04](../courses/04-nlp-llm.md) |
+| CMU **10-202** 現代 AI 導論 | Zico Kolter 的新式入門課，以 LLM 與聊天機器人的原理與實作為主軸 | [02](../courses/02-ml-foundations.md) |
+| **Google AI 專業證書** | 2026 年 2 月推出，8 月加入 Vibe Coding；Google 稱為 Coursera 上最受歡迎的生成式 AI 證書 | [01](../courses/01-ai-literacy.md)、[15](../courses/15-business-leadership.md) |
+| **Claude Academy**（原 Anthropic Academy） | 3 月以 13 門課上線，11 月約 28 門 | [05](../courses/05-generative-ai-apps.md) |
+| **DeepLearning.AI** 目錄 | 2026 年 10 月統計約 131 項（107 短課、13 課程、11 專業證書）；新上架多為代理評估、規格驅動開發、AI 程式碼審查 | [06](../courses/06-ai-agents.md) |
+| 史丹佛**機器人自主性原理** | 2026 年 10 月公開教科書、影片與作業 | [08](../courses/08-reinforcement-learning.md) |
+| **MiniMind**、Datawhale 新教程 | 中文開源教材已涵蓋 LLM 訓練全鏈路、RAG、代理、Vibe Coding、具身智慧 | [11](../courses/11-chinese-resources.md) |
+
+### 第二輪歸納出的六個觀察
+
+1. **長尾比想像中長得多。** 光是提供公開教材的大學 AI 課程就超過 100 門（見 [13](../courses/13-university-courses.md)）。對多數學習者而言，問題早已不是「找不到課」，而是「選不出來」——這也是本倉庫保留「精選詳解」並另列「延伸清單」的原因。
+2. **代理課程的重心轉向「評估」與「上下文工程」。** 2026 年下半年的新課名稱幾乎都是 Evaluating、Context、Spec-Driven、Skills，而不再是某個框架的入門。
+3. **評估能力是最貴的課。** 業界口碑最好的評估課（Maven 的 AI Evals）標價約 4,500 美元，是少數「免費資源難以完全取代」的主題；免費替代品為 Hugging Face 評估指南、LLM Zoomcamp 的評估模組與 Evidently 的開放課程。
+4. **「完課證明」與「正式認證」的界線愈來愈重要。** OpenAI、Anthropic 的免費課程給的是完課證明；正式認證（OpenAI Certifications、Claude 認證）目前都有資格限制。真正免費的監考認證極少，Oracle 的 OCI AI Foundations 是例外之一。
+5. **AI 素養進入法規與課綱。** 歐盟《AI 法》第 4 條、中國大陸的中小學 AI 通識教育指南與「人工智能＋教育」行動計畫、台灣的 TAICA 與 AI 教師學院、加拿大與愛爾蘭的全民計畫，都在 2025–2026 年間成形（見 [16](../courses/16-educators-k12.md)、[22](../courses/22-global-programs.md)）。
+6. **中文學習者的資源已不輸英文入門路徑。** 從通識（李宏毅）、理論（林軒田、邱錫鵬）、實作（李沐、Datawhale）到 LLM 教材（清華、浙大、復旦、人大、上交），中文已形成完整鏈條；差距主要在最前沿的研究所課程與官方文件。
+
+### 查核方式的改進與仍存在的限制
+
+- **改進**：本輪直接讀取約 120 個課程 GitHub 倉庫的原始 README（如微軟各課綱的課表、Hugging Face 新課的單元表、DataTalksClub 的 2026 年模組），並逐一驗證文中 111 個 GitHub 連結確實存在。
+- **限制**：GitHub 以外的網站（課程官網、Coursera、YouTube 等）在本次作業環境中無法直接開啟，相關資訊仍靠搜尋結果交叉比對；價格、日期等易變資訊請以官方頁面為準。
 
 ---
 
@@ -67,7 +102,7 @@ MCP 從 Anthropic 於 2024 年底提出的協定，迅速成為代理連接外�
 
 | 學院 | 特色 | 注意事項 |
 |---|---|---|
-| Anthropic Academy | 免費、含證書；涵蓋 AI 流暢力、Claude API、Claude Code、MCP | 課程隨產品改版汰換 |
+| Claude Academy（原 Anthropic Academy） | 免費、含完課證明；涵蓋 AI 流暢力、Claude 平台、Claude Code、MCP、工具使用；2026 年 11 月約 28 門 | 課程隨產品改版汰換；正式的 Claude 認證另有資格限制 |
 | OpenAI Academy | 免費；AI 基礎、應用 AI、代理與工作流程 | 結業證明 ≠ 正式認證 |
 | Google Skills | 2025 年 10 月整合推出，近 3,000 門課程 | 部分實驗室與證照需訂閱 |
 | NVIDIA DLI | 部分免費自學課；偏部署與加速 | 進階課程與認證付費 |
@@ -279,6 +314,33 @@ GRPO、可驗證獎勵的強化學習（RLVR）等 LLM 後訓練技術，讓 RL 
 - [台大開放式課程 – 機器學習基石](https://ocw.aca.ntu.edu.tw/courses/mooc0032)
 - [Datawhale GitHub](https://github.com/datawhalechina)
 - [赫爾辛基大學 – Elements of AI 百萬學習者公告](https://www.helsinki.fi/en/news/artificial-intelligence/elements-ai-has-introduced-one-million-people-basics-artificial-intelligence)
+
+**第二輪（2026 年 11 月）新增的主要來源**
+- [cs-video-courses（大學錄影課程索引）](https://github.com/Developer-Y/cs-video-courses)
+- [ML YouTube Courses（DAIR.AI）](https://github.com/dair-ai/ML-YouTube-Courses)
+- [CS 自學指南](https://csdiy.wiki/)
+- [Hugging Face Context Course](https://github.com/huggingface/context-course)、[Robotics Course](https://github.com/huggingface/robotics-course)、[smol course](https://github.com/huggingface/smol-course)
+- [Google DeepMind AI Research Foundations](https://github.com/google-deepmind/ai-foundations)・[Google Skills 頁面](https://www.skills.google/collections/deepmind)
+- [Google：AI 專業證書](https://blog.google/company-news/outreach-and-initiatives/grow-with-google/google-ai-professional-certificate/)・[新增 Vibe Coding 課程](https://blog.google/company-news/outreach-and-initiatives/grow-with-google/vibe-coding-course/)
+- [Class Central：Anthropic Academy 課程](https://www.classcentral.com/provider/anthropic-academy)
+- [DeepLearning.AI 課程目錄](https://www.deeplearning.ai/courses)
+- [OpenAI：首批 OpenAI Certifications 課程](https://openai.com/index/openai-certificate-courses/)
+- [Microsoft Tech Community：2026 年 2 月認證總覽](https://techcommunity.microsoft.com/blog/skills-hub-blog/microsoft-credentials-roundup-february-2026-edition/3666867)
+- [NVIDIA：NCA-GENL 認證頁](https://www.nvidia.com/en-us/learn/certification/generative-ai-llm-associate/)
+- [Training Camp：Claude 四項認證說明](https://trainingcamp.com/articles/claude-certifications-explained-all-four-anthropic-exams-costs-and-who-can-take-them/)
+- [How to AI：AI 治理認證](https://howtoai.com/ai-governance-certifications/)・[免費 AI 認證](https://howtoai.com/free-ai-certifications/)
+- [Maven：AI Evals for Engineers & PMs](https://maven.com/parlance-labs/evals)
+- [史丹佛新聞：機器人自主性課程公開](https://news.stanford.edu/stories/2026/10/autonomous-robotics-education-curriculum-textbook)
+- [Class Central：給教育工作者的 AI 課程](https://www.classcentral.com/report/best-ai-for-educators-courses/)・[Code.org AI 101](https://code.org/en-US/professional-learning/artificial-intelligence-101)
+- [TAICA 臺灣大專院校人工智慧學程聯盟](https://taicatw.net/)・[遠見：TAICA 聯盟報導](https://www.gvm.com.tw/article/132805)
+- [新華網：中小學人工智能通識教育指南](http://www.news.cn/tech/20250513/4ef8cb3c90b44cb28124297a44aeb455/c.html)・[國家數據局：「人工智能＋教育」行動計畫](https://www.nda.gov.cn/sjj/zwgk/zcfb/0413/20260410162428109058250_pc.html)
+- [國家高等教育智慧教育平台：人工智能 2026](https://www.chinaooc.com.cn/ai2026)
+- [阿里雲：人工智能 ACA／ACP 認證考試截止公告](https://help.aliyun.com/zh/document_detail/3039457.html)・[大模型認證](https://edu.aliyun.com/certification/llm)
+- [東京大學松尾・岩澤研究室：大規模語言模型講座](https://weblab.t.u-tokyo.ac.jp/lecture/course-list/large-language-model/)
+- [Amii：加拿大國家 AI 素養計畫](https://www.amii.ca/updates-insights/amii-leads-national-ai-literacy-initiative)・[RTÉ：愛爾蘭 AI 技能平台](https://www.rte.ie/news/2026/0423/1569642-ai-skills-platform/)
+- [Neuromatch 課程](https://neuromatch.io/courses/)・[awesome-mlss 暑期學校總表](https://awesome-mlss.com/)
+- [mastersinai.org：平價線上 AI 碩士](https://www.mastersinai.org/degrees/affordable-online-masters-in-ai/)
+- [AI Safety Events & Training 週報](https://aisafetyeventsandtraining.substack.com/)
 
 **評比、整理與新聞報導**
 - [KDnuggets – Kaggle × Google 5 天代理式 AI 課程](https://www.kdnuggets.com/kaggle-googles-free-5-day-agentic-ai-course)

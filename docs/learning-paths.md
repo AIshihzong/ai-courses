@@ -74,8 +74,8 @@
 | 2. 框架實作 | 第 3–5 週 | Hugging Face AI Agents Course（含期末排行榜專案） | [06](../courses/06-ai-agents.md) |
 | 3. MCP | 第 5–6 週 | Anthropic MCP 入門 → Hugging Face MCP Course | [06](../courses/06-ai-agents.md) |
 | 4. 系統化與上線 | 第 6–8 週 | 微軟 AI Agents for Beginners（記憶、上下文工程、安全、部署章節）或 Kaggle 5 天代理密集課 | [06](../courses/06-ai-agents.md) |
-| 5. 前沿與研究 | 第 8–10 週 | 柏克萊 Agentic AI MOOC 精選講座 | [06](../courses/06-ai-agents.md) |
-| 6. AI 程式代理（選修） | 隨時 | Claude Code in Action、AI Dev Tools Zoomcamp | [06](../courses/06-ai-agents.md) |
+| 5. 前沿與研究 | 第 8–10 週 | 柏克萊 Agentic AI MOOC 精選講座、史丹佛 CS329A | [06](../courses/06-ai-agents.md) |
+| 6. AI 程式代理（選修） | 隨時 | Claude Code in Action、Hugging Face Context Course、AI Dev Tools Zoomcamp | [06](../courses/06-ai-agents.md) |
 
 **里程碑專案**：打造一個能完成真實任務的代理（如自動研究報告、程式碼審查、客服工單處理），需包含：
 - 自建的 MCP 伺服器（連接至少一個真實資料來源或 API）
@@ -115,7 +115,7 @@
 | 階段 | 時間 | 課程 | 連結 |
 |---|---|---|---|
 | 1. NLP 理論 | 第 1–10 週 | 史丹佛 CS224N（含作業） | [04](../courses/04-nlp-llm.md) |
-| 2. 從零打造 LLM | 第 6–14 週 | Raschka《LLMs from Scratch》或 Datawhale Happy-LLM | [04](../courses/04-nlp-llm.md) |
+| 2. 從零打造 LLM | 第 6–14 週 | 史丹佛 CME295（觀念）＋ Raschka《LLMs from Scratch》或 Datawhale Happy-LLM | [04](../courses/04-nlp-llm.md) |
 | 3. 開源生態系 | 第 10–16 週 | Hugging Face LLM Course（含推理模型章節）+ smol course | [04](../courses/04-nlp-llm.md) |
 | 4. 完整堆疊 | 第 16–30 週 | 史丹佛 CS336（全部作業）+ nanochat | [04](../courses/04-nlp-llm.md) |
 | 5. 系統與效能 | 第 24 週以後 | CMU Deep Learning Systems、GPU MODE 講座 | [09](../courses/09-mlops-llmops.md) |
@@ -166,6 +166,25 @@
 | 8. 銜接英文前沿 | 持續 | 李沐「論文精讀」→ 逐步改讀英文課程與論文 | [11](../courses/11-chinese-resources.md) |
 
 **里程碑專案**：以中文資料打造一個 RAG 問答系統或代理應用，並撰寫中文技術文章分享學習歷程。
+
+---
+
+## 其他身分的起點
+
+上面 7 條路線以技術與職場應用為主。其他身分可直接從對應的分類頁開始：
+
+| 身分／目標 | 起點 | 說明 |
+|---|---|---|
+| 主管、創業者、產品經理 | [15｜商業、產品與領導者](../courses/15-business-leadership.md) | 依預算分級的課程建議與 AI 產品管理資源 |
+| 教師、家長、國高中生 | [16｜教育工作者、K-12 與青少年](../courses/16-educators-k12.md) | 教師課程、分齡教材與兩岸教育資源 |
+| 不寫程式想做出工具或自動化 | [17｜無程式碼、Vibe Coding 與創意 AI](../courses/17-nocode-creative.md) | n8n、Dify、Coze、Vibe Coding、影像與影片工具 |
+| 完全不會寫程式但想走技術路線 | [18｜先修](../courses/18-prerequisites.md) → 路線 B 或 D | 先用 6–8 週補 Python 與工具 |
+| 想照名校課表自學 | [13｜大學公開課總覽](../courses/13-university-courses.md) | 內含史丹佛 LLM、柏克萊＋CMU 系統、MIT 短課三條課號路線 |
+| 特定產業（醫療、金融、科學、資安、邊緣裝置） | [14｜垂直領域與專題](../courses/14-domain-applications.md) | 建議先完成路線 B 或 D 的前半段 |
+| 需要學位、導師或研究經驗 | [21｜學位、訓練營與研究培訓](../courses/21-degrees-bootcamps.md) | 線上碩士、梯次課程、暑期學校、研究駐點 |
+| 想取得證照 | [12｜認證](../courses/12-certifications.md) | 雲端原廠、治理與資安、兩岸認證 |
+
+**每條路線都適用的配套資源**：[19｜免費教科書](../courses/19-books.md)（挑一本當主幹）、[20｜頻道、電子報與社群](../courses/20-channels-communities.md)（建立長期資訊來源）、[學習平台總覽](platforms.md)。
 
 ---
 

@@ -181,3 +181,42 @@
 | 準備走研究路線 | 帝國學院數學專項或 MIT 18.06 → CS229 |
 | 喜歡專案驅動學習 | 哈佛 CS50 AI |
 | 偏好中文 | 李宏毅「機器學習」、林軒田「機器學習基石」，見 [11｜中文原生課程](11-chinese-resources.md) |
+
+---
+
+## 延伸清單：更多機器學習與數學課程（2026 年 11 月增補）
+
+### 機器學習
+
+| 課程（中文／英文） | 提供者 | 程度 | 費用 | 連結 | 說明 |
+|---|---|---|---|---|---|
+| 從資料中學習 / Learning from Data（CS156） | 加州理工（Yaser Abu-Mostafa） | ⭐⭐ | 免費 | <https://work.caltech.edu/telecourse> | 18 講的機器學習理論經典；林軒田「機器學習基石」與其一脈相承 |
+| 機器學習導論 / CS189／289A | UC Berkeley | ⭐⭐⭐ | 免費 | <https://eecs189.org/> | 理論深入，作業與自動評分程式公開 |
+| 智慧系統的機器學習 / CS4780 | 康乃爾（Kilian Weinberger） | ⭐⭐ | 免費 | <https://www.cs.cornell.edu/courses/cs4780/2018fa/> | 講課生動、筆記完整 |
+| 應用機器學習 / Applied Machine Learning（CS5785） | 康乃爾科技校區 | ⭐⭐ | 免費 | [YouTube](https://www.youtube.com/playlist?list=PL2UML_KCiC0UlY7iCQDSiGDMovaupqc83) | 每講都是可執行的 Notebook |
+| 機器學習導論 / 6.036（6.390） | MIT | ⭐⭐ | 免費 | <https://openlearninglibrary.mit.edu/> | 可免費自學的互動版本 |
+| 機器學習導論 / 10-301／601 | CMU | ⭐⭐ | 免費（講義） | <https://www.cs.cmu.edu/~mgormley/courses/10601/> | 講義與作業公開 |
+| 現代 AI 導論 / Introduction to Modern AI（10-202） | CMU（Zico Kolter） | ⭐～⭐⭐ | 免費 | <https://modernaicourse.org/> | 以 LLM 與聊天機器人的原理與實作為主軸的新式入門課 |
+| 人工智慧導論 / CS188 | UC Berkeley | ⭐⭐ | 免費 | <https://inst.eecs.berkeley.edu/~cs188/> | 搜尋、MDP、強化學習、貝氏網路；Pac-Man 專案 |
+| 人工智慧：原理與技術 / CS221 | 史丹佛 | ⭐⭐ | 免費 | <https://stanford-cs221.github.io/autumn2025/> | 2025 秋季錄影公開 |
+| 機器學習 Zoomcamp / Machine Learning Zoomcamp | DataTalksClub | ⭐⭐ | 免費（含證書） | <https://github.com/DataTalksClub/machine-learning-zoomcamp> | 4 個月梯次；偏工程：迴歸、分類、部署、Kubernetes |
+| 統計學習（Python 版）/ Statistical Learning with Python | 史丹佛，edX | ⭐⭐ | 可免費旁聽 | <https://www.edx.org/> （搜尋課名） | 《ISLP》作者親授 |
+| 機器學習專項課程 / Machine Learning Specialization | 華盛頓大學，Coursera | ⭐⭐ | 部分免費 | <https://www.coursera.org/specializations/machine-learning> | 以案例帶入的老牌專項課程 |
+| 與機器學習做朋友 / Making Friends with Machine Learning | Cassie Kozyrkov（前 Google 首席決策科學家） | ⭐ | 免費 | [YouTube](https://www.youtube.com/playlist?list=PLRKtJ4IpxJpDxl0NTvNYQWKCYzHNuy2xG) | 給非技術人員的 ML 觀念課 |
+| 機器學習導論／統計機器學習 | 圖賓根大學 | ⭐⭐～⭐⭐⭐ | 免費 | [YouTube](https://www.youtube.com/playlist?list=PL05umP7R6ij35ShKLDqccJSDntugY4FQT) | 完整錄影 |
+| 人人都能學機器學習 / Machine Learning for Everybody | freeCodeCamp | ⭐ | 免費 | <https://www.freecodecamp.org/> | YouTube 上的數小時完整課程 |
+| IBM AI 工程專業證書 / IBM AI Engineering Professional Certificate | IBM，Coursera | ⭐⭐ | 付費 | <https://www.coursera.org/professional-certificates/ai-engineer> | 多份評比中最常被推薦的職涯導向證書之一 |
+
+### 數學
+
+| 課程（中文／英文） | 提供者 | 程度 | 連結 | 說明 |
+|---|---|---|---|---|
+| 給電腦科學家的機率論 / CS109 | 史丹佛（Chris Piech） | ⭐～⭐⭐ | <https://web.stanford.edu/class/cs109/> | 為 ML 量身打造的機率課，講義極佳 |
+| 機率論 / Stat 110 | 哈佛（Joe Blitzstein） | ⭐⭐ | <https://probabilitybook.net/> | 影片＋免費線上教科書 |
+| 資料分析與機器學習的矩陣方法 / 18.065 | MIT（Gilbert Strang） | ⭐⭐ | <https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/> | 18.06 的資料科學續作 |
+| 凸最佳化 / EE364A | 史丹佛（Stephen Boyd） | ⭐⭐⭐ | <https://web.stanford.edu/class/ee364a/> | 最佳化的標準課程 |
+| 工程中的最佳化模型 / EECS 127 | UC Berkeley | ⭐⭐⭐ | <https://eecs127.github.io/> | 較偏應用的最佳化 |
+| 可汗學院數學 / Khan Academy | 可汗學院 | ⭐ | <https://www.khanacademy.org/> | 從國高中數學補起的最佳選擇，有中文介面 |
+| 鳶尾花書系列（數學） | Visualize-ML | ⭐～⭐⭐ | <https://github.com/Visualize-ML> | **中文**；《數學要素》《矩陣力量》《統計至簡》等視覺化叢書 |
+
+更多大學課程見 [13｜大學公開課總覽](13-university-courses.md)；免費教科書見 [19｜書籍](19-books.md)；因果推論、時間序列等專題見 [14｜垂直領域](14-domain-applications.md)。
